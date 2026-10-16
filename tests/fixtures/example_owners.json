@@ -1,0 +1,7 @@
+{
+  "_about": "Which employee each bundled example file belongs to, for the files that do not name their owner themselves (the detection step reports them as needing an employee_id). This records the example set's own convention (it is NOT proof taken from the files: a bare response such as getDeductions or a deposit list carries no owner); used ONLY for the one-click examples and the example hint in the app. It is never inferred for uploaded files.",
+  "prismhr/deductions_get_deductions.json": { "employee_id": "E1001", "evidence": "EXAMPLE-SET CONVENTION, not stated by the file: the real getDeductions call takes employeeId as a request parameter and its response (DeductionResponse) carries no employee field, so the file cannot say whose deductions these are. The project uses E1001 for it in tests/support/scenarios.py (case prismhr-deduction-recurring, which feeds the canonical snapshot) and tests/test_prismhr.py; E1001 is also the only example employee with embedded deposits." },
+  "isolved/direct_deposits.json": { "employee_id": "90001", "evidence": "frontend/src/lib/scenarios.ts: scenario isolved-direct-deposit; the same deposit 301 is embedded in employee 90001 in employees.json" },
+  "ukg_ready/direct_deposits.json": { "employee_id": "7770001", "evidence": "frontend/src/lib/scenarios.ts: scenario ukg-direct-deposit" },
+  "ukg_ready/deductions.json": { "employee_id": "7770001", "evidence": "frontend/src/lib/scenarios.ts: scenario ukg-deduction" }
+}

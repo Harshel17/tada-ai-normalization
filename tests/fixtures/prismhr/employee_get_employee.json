@@ -1,0 +1,192 @@
+{
+  "errorCode": "",
+  "errorMessage": "",
+  "employee": [
+    {
+      "id": "E1001",
+      "firstName": "Jordan",
+      "lastName": "Rivera",
+      "middleInitial": "Q",
+      "preferredName": "Jo",
+      "person": {
+        "birthDate": "1988-04-17",
+        "gender": "F",
+        "maritalStatus": "M",
+        "ethnicCode": "2",
+        "preferredLanguage": "es",
+        "geoCode": "GEO123",
+        "peoStartDate": "2019-06-03",
+        "w2AddressLine1": "9 Tax Ln",
+        "w2City": "Dallas",
+        "w2State": "TX",
+        "w2PostalCode": "75001",
+        "smoker": "N",
+        "veteran": "D",
+        "emergencyContact": [{ "contactName": "Sam Rivera", "contactRelationship": "spouse", "contactType": "PHONE", "contactInfo": "5125550177" }],
+        "personChecksum": "chk-person-1"
+      },
+      "contactInformation": {
+        "addressLine1": "12 Main St",
+        "addressLine2": "Apt 4",
+        "city": "Austin",
+        "state": "TX",
+        "zipcode": "78701",
+        "zipSuffix": "1234",
+        "county": "Travis",
+        "homePhone": "5125550101",
+        "mobilePhone": "5125550102",
+        "emailAddress": "jordan.rivera@example.test",
+        "schoolDistrict": "ISD-5"
+      },
+      "client": {
+        "employeeStatus": "ACT",
+        "statusClass": "A",
+        "statusDate": "2021-03-01",
+        "employeeType": "FT",
+        "jobCode": "ENG2",
+        "firstHireDate": "2019-06-03",
+        "lastHireDate": "2021-03-01",
+        "jobStartDate": "2021-03-01",
+        "flsaExempt": true,
+        "clientEmployeeId": "1001",
+        "workEmail": "jrivera@acme.example.test",
+        "workPhone": "5125550199",
+        "workPhoneExt": "22",
+        "homeLocation": "AUS",
+        "homeDivision": "ENGR",
+        "homeDepartment": "PLAT",
+        "workShift": "DAY",
+        "manager": "E0900",
+        "termReasonCode": "",
+        "benefitGroup": "BG1",
+        "clientChecksum": "chk-client-1",
+        "preferredPronoun": "she/her",
+        "returnDate": "2025-03-01",
+        "rehireOk": "Y",
+        "employee1099": false,
+        "officer": true,
+        "businessOwner": false,
+        "unionCode": "UN7",
+        "clockNum": "CLK-9",
+        "lastJobChangeDate": "2023-09-01",
+        "addressLine1": "PO Box 77",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78702",
+        "retirementBenefitGroup": "RBG1",
+        "courtOrderMedical": false,
+        "cafeteriaPlan": [{ "planAmt": "150.00", "planEffectiveDate": "2024-01-01" }]
+      },
+      "compensation": {
+        "ssn": "123-45-6789",
+        "payGroup": "BIWK",
+        "payMethod": "S",
+        "salary": 3846.15,
+        "hourlyPay": 0,
+        "annualPay": "100000.00",
+        "standardHours": 80.00,
+        "effectiveDate": "2024-01-01",
+        "fedFilingStatus": "MJ",
+        "fedWithholdAllowance": "2",
+        "fedDependents": 2000.00,
+        "fedOtherIncome": 0,
+        "fedDeductions": 4300.00,
+        "fedOverrideType": "A",
+        "fedOverrideAmt": "10.00",
+        "fedMultipleJobs": false,
+        "fedW4Filed": true,
+        "fedW4Year": "2024",
+        "ficaExempt": false,
+        "nonResAlien": false,
+        "payPeriod": "BW",
+        "payAllocation": [
+          { "locationCode": "AUS", "percent": "60.00", "deptCode": "PLAT", "job": "ENG2" },
+          { "locationCode": "DAL", "percent": "40.00", "division": "ENGR", "project": "P-1" }
+        ],
+        "lastChangeAmt": "5000.00",
+        "lastChangePct": "5.26",
+        "payChangeLastDate": "2024-01-01",
+        "perDiemPay": "25.00",
+        "payRate2": "55.00",
+        "benefitSalary": "100000.00",
+        "stateTax": [{ "stateCode": "TX", "filingStatus": "S", "primaryAllowance": "1", "exemptAmount": "0.00", "nonResCertFiled": "N" }],
+        "localTax": [{ "authId": "DALLAS", "filingStatus": "S", "primaryAllowance": "1", "nonResCert": "N", "addlWithheld": "2.00" }]
+      },
+      "directDeposit": {
+        "achStatus": "A",
+        "voucherType": "RSV",
+        "achVoucher": [
+          {
+            "transitNum": "111000025",
+            "accountNum": "000123456789",
+            "accountType": "C",
+            "method": "F",
+            "amount": 500.00,
+            "status": "D",
+            "bankName": "First Test Bank"
+          },
+          {
+            "transitNum": "122000247",
+            "accountNum": "998877665544",
+            "accountType": "S",
+            "method": "P",
+            "amount": 25.5,
+            "limit": 1000.00,
+            "status": "D",
+            "bankName": "Second Test Bank"
+          },
+          {
+            "transitNum": "122000247",
+            "accountNum": "998877665544",
+            "accountType": "S",
+            "method": "B",
+            "status": "D",
+            "bankName": "Second Test Bank",
+            "voucherTypeOverride": "R"
+          }
+        ]
+      },
+      "scheduledDeduction": [
+        {
+          "deductionCode": "PARK",
+          "checkStubDescription": "Parking",
+          "status": "A",
+          "amount": 25.50,
+          "startDate": "2024-02-01",
+          "stopDate": "",
+          "cutbackPayeeCode": "CITY"
+        },
+        {
+          "deductionCode": "ADV",
+          "status": "O",
+          "amount": 0,
+          "startDate": "2024-03-01"
+        }
+      ],
+      "newHireQuestions": [],
+      "benefitEnrollmentCompleted": true,
+      "enrollmentInProgress": { "enrollmentInProgress": false, "enrollmentType": "OE" }
+    },
+    {
+      "id": "E1002",
+      "firstName": "Casey",
+      "lastName": "Nguyen",
+      "person": { "gender": "X", "birthDate": null },
+      "contactInformation": { "emailAddress": "" },
+      "client": {
+        "employeeStatus": "TRM",
+        "statusClass": "T",
+        "statusDate": "2024-09-30",
+        "termReasonCode": "RESIGN",
+        "termExplanation": "Moved away",
+        "rehireOk": "N",
+        "employeeType": "PT",
+        "lastHireDate": "2022-01-10",
+        "flsaExempt": false
+      },
+      "compensation": { "payMethod": "H", "hourlyPay": 22.75, "salary": 0, "payGroup": "WEEK", "lastWorkedDate": "2024-09-27" },
+      "directDeposit": { "achStatus": "I", "achVoucher": [] },
+      "scheduledDeduction": []
+    }
+  ]
+}

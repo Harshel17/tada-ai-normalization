@@ -1,0 +1,5 @@
+[
+  { "id": 301, "accountNumber": "5550001111", "accountType": "Checking", "amount": 100.00, "bankName": "Harbor CU", "description": "Savings sweep", "frequency": "Every Pay", "routingNumber": "011000015", "sequenceNumber": 1, "status": "Active" },
+  { "id": 302, "accountNumber": "5550002222", "accountType": "Savings", "percent": 15.5, "bankName": "Harbor CU", "description": "Emergency fund", "frequency": "Every Pay", "routingNumber": "011000015", "sequenceNumber": 2, "status": "Active" },
+  { "id": 303, "accountNumber": "5550003333", "accountType": "Money Market", "bankName": "Other Bank", "description": "Net pay", "frequency": "Every Pay", "routingNumber": "021000021", "sequenceNumber": 0, "status": "Pending Prenote" }
+]

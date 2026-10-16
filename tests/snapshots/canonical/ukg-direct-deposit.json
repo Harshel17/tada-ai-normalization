@@ -1,0 +1,190 @@
+{
+  "entity_type": "direct_deposit",
+  "issues": [
+    {
+      "code": "unmapped_code",
+      "message": "calc_method.type has a code without a documented meaning",
+      "path": "$.deposits[2]",
+      "severity": "info",
+      "source_id": "5003"
+    }
+  ],
+  "provider": "ukg-ready",
+  "records": [
+    {
+      "account_number_masked": "****2233",
+      "account_type": "checking",
+      "account_type_raw": "CHECKING",
+      "active": true,
+      "allocation_raw": "FLAT_AMOUNT",
+      "allocation_type": "fixed_amount",
+      "amount": "250.00",
+      "bank_name": null,
+      "cap_amount": null,
+      "company_id": "CID1",
+      "currency": "USD",
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "employee_id": "7770001",
+      "extras": {
+        "calc_method": {
+          "display_name": "Flat"
+        },
+        "description": "Main",
+        "routing_type": "ABA",
+        "year_to_date": "1250.00"
+      },
+      "frequency_raw": "EVERY_PAY",
+      "instruction_type_raw": "DIRECT_DEPOSIT",
+      "name": "Checking",
+      "percentage": null,
+      "percentage_basis_raw": null,
+      "prenote_status_raw": "COMPLETE_OK",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.deposits[0].account_number"
+        ],
+        "source_endpoint": "GET /v2/companies/{cid}/employees/{aid}/direct-deposits",
+        "source_path": "$.deposits[0]"
+      },
+      "provider": "ukg-ready",
+      "record_type": "direct_deposit",
+      "routing_number": "123456780",
+      "sequence": 1,
+      "skip_if_insufficient": null,
+      "source_id": "5001",
+      "source_position": 0,
+      "status": null,
+      "status_raw": null,
+      "tenant_id": "snapshot",
+      "voucher_types_raw": null
+    },
+    {
+      "account_number_masked": "****8877",
+      "account_type": "savings",
+      "account_type_raw": "SAVINGS",
+      "active": true,
+      "allocation_raw": "GROSS_EARNING",
+      "allocation_type": "percentage",
+      "amount": null,
+      "bank_name": null,
+      "cap_amount": null,
+      "company_id": "CID1",
+      "currency": "USD",
+      "effective_from": "2023-01-01",
+      "effective_to": null,
+      "employee_id": "7770001",
+      "extras": {
+        "routing_type": "ABA"
+      },
+      "frequency_raw": null,
+      "instruction_type_raw": "DIRECT_DEPOSIT",
+      "name": "Savings",
+      "percentage": "10",
+      "percentage_basis_raw": "GROSS_EARNING",
+      "prenote_status_raw": "SENT",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.deposits[1].account_number"
+        ],
+        "source_endpoint": "GET /v2/companies/{cid}/employees/{aid}/direct-deposits",
+        "source_path": "$.deposits[1]"
+      },
+      "provider": "ukg-ready",
+      "record_type": "direct_deposit",
+      "routing_number": "123456780",
+      "sequence": 2,
+      "skip_if_insufficient": null,
+      "source_id": "5002",
+      "source_position": 1,
+      "status": null,
+      "status_raw": null,
+      "tenant_id": "snapshot",
+      "voucher_types_raw": null
+    },
+    {
+      "account_number_masked": "****",
+      "account_type": "checking",
+      "account_type_raw": "CHECKING",
+      "active": false,
+      "allocation_raw": "FULL",
+      "allocation_type": null,
+      "amount": null,
+      "bank_name": null,
+      "cap_amount": null,
+      "company_id": "CID1",
+      "currency": "USD",
+      "effective_from": null,
+      "effective_to": null,
+      "employee_id": "7770001",
+      "extras": {},
+      "frequency_raw": null,
+      "instruction_type_raw": "DIRECT_DEPOSIT",
+      "name": "Remainder",
+      "percentage": null,
+      "percentage_basis_raw": null,
+      "prenote_status_raw": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.deposits[2].account_number"
+        ],
+        "source_endpoint": "GET /v2/companies/{cid}/employees/{aid}/direct-deposits",
+        "source_path": "$.deposits[2]"
+      },
+      "provider": "ukg-ready",
+      "record_type": "direct_deposit",
+      "routing_number": "123456780",
+      "sequence": 3,
+      "skip_if_insufficient": null,
+      "source_id": "5003",
+      "source_position": 2,
+      "status": null,
+      "status_raw": null,
+      "tenant_id": "snapshot",
+      "voucher_types_raw": null
+    },
+    {
+      "account_number_masked": null,
+      "account_type": null,
+      "account_type_raw": null,
+      "active": true,
+      "allocation_raw": "NET_PAY",
+      "allocation_type": "percentage",
+      "amount": null,
+      "bank_name": null,
+      "cap_amount": null,
+      "company_id": "CID1",
+      "currency": null,
+      "effective_from": null,
+      "effective_to": null,
+      "employee_id": "7770001",
+      "extras": {},
+      "frequency_raw": null,
+      "instruction_type_raw": "RESERVE_LIVE_CHECK",
+      "name": "Live check reserve",
+      "percentage": "0",
+      "percentage_basis_raw": "NET_PAY",
+      "prenote_status_raw": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /v2/companies/{cid}/employees/{aid}/direct-deposits",
+        "source_path": "$.deposits[3]"
+      },
+      "provider": "ukg-ready",
+      "record_type": "direct_deposit",
+      "routing_number": null,
+      "sequence": 4,
+      "skip_if_insufficient": null,
+      "source_id": "5004",
+      "source_position": 3,
+      "status": null,
+      "status_raw": null,
+      "tenant_id": "snapshot",
+      "voucher_types_raw": null
+    }
+  ]
+}

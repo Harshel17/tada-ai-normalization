@@ -1,0 +1,30 @@
+{
+  "employee": [
+    {
+      "id": "E9001",
+      "lastName": "Sample",
+      "firstName": "Pat",
+      "middleInitial": "Q",
+      "preferredName": "Pat",
+      "person": null,
+      "contactInformation": null,
+      "client": null,
+      "compensation": null,
+      "directDeposit": null,
+      "hsa": null,
+      "employeeEvents": null,
+      "health": null,
+      "skillsAndEducation": null,
+      "absenceJournalId": null,
+      "benefitEnrollmentCompleted": null,
+      "scheduledDeduction": null,
+      "newHireQuestions": null,
+      "enrollmentInProgress": null
+    }
+  ],
+  "infoMessage": null,
+  "updateMessage": null,
+  "errorCode": "0",
+  "errorMessage": "",
+  "extension": null
+}

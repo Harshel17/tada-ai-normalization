@@ -1,0 +1,57 @@
+{
+  "entity_type": "direct_deposit",
+  "issues": [
+    {
+      "code": "no_direct_deposit_details",
+      "message": "employee has no directDeposits",
+      "path": "$.results[1]",
+      "severity": "info",
+      "source_id": null
+    }
+  ],
+  "provider": "isolved",
+  "records": [
+    {
+      "account_number_masked": "****1111",
+      "account_type": "checking",
+      "account_type_raw": "Checking",
+      "active": null,
+      "allocation_raw": null,
+      "allocation_type": "fixed_amount",
+      "amount": "100.00",
+      "bank_name": "Harbor CU",
+      "cap_amount": null,
+      "company_id": "4501",
+      "currency": null,
+      "effective_from": null,
+      "effective_to": null,
+      "employee_id": "90001",
+      "extras": {},
+      "frequency_raw": "Every Pay",
+      "instruction_type_raw": null,
+      "name": "Savings sweep",
+      "percentage": null,
+      "percentage_basis_raw": null,
+      "prenote_status_raw": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.results[0].directDeposits[0].accountNumber"
+        ],
+        "source_endpoint": "GET /api/clients/{clientId}/legals/{legalId}/employees/{employeeId}/directdeposits",
+        "source_path": "$.results[0].directDeposits[0]"
+      },
+      "provider": "isolved",
+      "record_type": "direct_deposit",
+      "routing_number": "011000015",
+      "sequence": 1,
+      "skip_if_insufficient": null,
+      "source_id": "301",
+      "source_position": 0,
+      "status": null,
+      "status_raw": "Active",
+      "tenant_id": "snapshot",
+      "voucher_types_raw": null
+    }
+  ]
+}

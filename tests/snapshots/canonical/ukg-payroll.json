@@ -1,0 +1,319 @@
+{
+  "entity_type": "payroll",
+  "issues": [
+    {
+      "code": "net_pay_not_exposed",
+      "message": "UKG pay statements document no net pay total",
+      "path": null,
+      "severity": "info",
+      "source_id": "990002"
+    }
+  ],
+  "provider": "ukg-ready",
+  "records": [
+    {
+      "company_id": "CID1",
+      "direct_deposit_date": "2025-02-19",
+      "ein_id": "12",
+      "extras": {
+        "billable": true,
+        "date_finalized": "2025-02-18",
+        "ein": {
+          "ein_name": "Northwind Services Inc",
+          "ein_tax_id": "55-1234567"
+        },
+        "type": {
+          "id": 1
+        }
+      },
+      "name": "Semi-monthly 2025-02-A",
+      "pay_date": "2025-02-20",
+      "period_end": "2025-02-15",
+      "period_start": "2025-02-01",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /v2/companies/{cid}/payrolls/{id}",
+        "source_path": "$.payroll"
+      },
+      "provider": "ukg-ready",
+      "record_type": "payroll_run",
+      "run_number": null,
+      "run_type_raw": "Regular",
+      "scheduled_pay_date": null,
+      "source_id": "880001",
+      "status_raw": "FINALIZED",
+      "tenant_id": "snapshot"
+    },
+    {
+      "benefits": [],
+      "check_amount": null,
+      "check_number": null,
+      "company_id": "CID1",
+      "currency": null,
+      "deductions": [
+        {
+          "accumulators": {},
+          "amount": "92.50",
+          "category_raw": null,
+          "code": "MED",
+          "description": "Medical",
+          "employer_amount": "185.00",
+          "extras": {
+            "deduction": {
+              "external_id": "MED"
+            },
+            "id": 11,
+            "type_name": "DEDUCTION",
+            "vendor": {
+              "id": 21,
+              "name": "Acme Health"
+            }
+          },
+          "line_no": 1,
+          "plan_id": null,
+          "source_kind": "deductions"
+        },
+        {
+          "accumulators": {},
+          "amount": "0",
+          "category_raw": null,
+          "code": "RET",
+          "description": "Retirement",
+          "employer_amount": "0",
+          "extras": {
+            "id": 12,
+            "type_name": "DEDUCTION"
+          },
+          "line_no": 2,
+          "plan_id": null,
+          "source_kind": "deductions"
+        }
+      ],
+      "earnings": [
+        {
+          "accumulators": {},
+          "amount": "2687.50",
+          "code": "REG",
+          "description": "Regular",
+          "extras": {
+            "batch": {
+              "display_name": "Main",
+              "id": 5
+            },
+            "earning": {
+              "external_id": "REG"
+            },
+            "id": 1,
+            "shift": {
+              "id": 1,
+              "name": "Day"
+            },
+            "type_name": "EARNING"
+          },
+          "hours": "86",
+          "is_memo": null,
+          "line_no": 1,
+          "rate": "31.25",
+          "source_kind": "earnings",
+          "units": "86",
+          "work_date_from": "2025-02-01",
+          "work_date_to": "2025-02-15"
+        },
+        {
+          "accumulators": {},
+          "amount": "187.50",
+          "code": "OT",
+          "description": "Overtime",
+          "extras": {
+            "earning": {
+              "external_id": "OT"
+            },
+            "id": 2,
+            "type_name": "EARNING"
+          },
+          "hours": "4",
+          "is_memo": null,
+          "line_no": 2,
+          "rate": "46.875",
+          "source_kind": "earnings",
+          "units": "4",
+          "work_date_from": null,
+          "work_date_to": null
+        },
+        {
+          "accumulators": {},
+          "amount": "0",
+          "code": "HOL",
+          "description": "Holiday",
+          "extras": {
+            "id": 3,
+            "type_name": "EARNING"
+          },
+          "hours": null,
+          "is_memo": null,
+          "line_no": 3,
+          "rate": null,
+          "source_kind": "earnings",
+          "units": null,
+          "work_date_from": null,
+          "work_date_to": null
+        }
+      ],
+      "employee_id": "7770001",
+      "extras": {
+        "messages": [
+          {
+            "id": 1,
+            "message": {
+              "severity": "INFO",
+              "text": "Check totals reconciled"
+            },
+            "type_name": "MESSAGE"
+          }
+        ],
+        "payments": [
+          {
+            "id": 31
+          }
+        ],
+        "type": {
+          "id": 1
+        }
+      },
+      "gross_pay": "2875.00",
+      "net_pay": null,
+      "pay_date": "2025-02-20",
+      "pay_group_raw": null,
+      "paycheck_type": null,
+      "paycheck_type_raw": "Regular",
+      "payments": [
+        {
+          "account_masked": null,
+          "amount": "2300.00",
+          "description": "PAYMENT",
+          "line_no": 1,
+          "routing_number": null,
+          "status_raw": null
+        }
+      ],
+      "period_end": "2025-02-15",
+      "period_start": "2025-02-01",
+      "provenance": {
+        "derived_fields": [
+          "gross_pay"
+        ],
+        "redacted_paths": [],
+        "source_endpoint": "GET /v2/companies/{cid}/payrolls/{id}/pay-statements/{id}",
+        "source_path": "$.pay_statements[0]"
+      },
+      "provider": "ukg-ready",
+      "record_type": "paycheck",
+      "run_id": "880001",
+      "source_id": "990001",
+      "status_raw": "FINALIZED",
+      "taxes": [
+        {
+          "accumulators": {},
+          "amount": "166.43",
+          "code": "FICA-SS",
+          "description": "Social Security",
+          "extras": {
+            "company_tax": {
+              "abbrev": "SS"
+            },
+            "ee_gross_wage": "2875.00",
+            "id": 21,
+            "type_name": "TAX"
+          },
+          "liability": "employee",
+          "line_no": 1,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "2875.00"
+        },
+        {
+          "accumulators": {},
+          "amount": "40.19",
+          "code": "FICA-MED",
+          "description": "Medicare",
+          "extras": {
+            "company_tax": {
+              "abbrev": "MED"
+            },
+            "id": 22,
+            "type_name": "TAX"
+          },
+          "liability": "employee",
+          "line_no": 2,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "2875.00"
+        },
+        {
+          "accumulators": {},
+          "amount": "40.19",
+          "code": "FICA-MED",
+          "description": "Medicare",
+          "extras": {},
+          "liability": "employer",
+          "line_no": 3,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "2875.00"
+        },
+        {
+          "accumulators": {},
+          "amount": "17.25",
+          "code": "SUTA",
+          "description": "State Unemployment",
+          "extras": {
+            "id": 23,
+            "type_name": "TAX"
+          },
+          "liability": "employer",
+          "line_no": 4,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "2875.00"
+        }
+      ],
+      "tenant_id": "snapshot",
+      "void_date": null
+    },
+    {
+      "benefits": [],
+      "check_amount": null,
+      "check_number": null,
+      "company_id": "CID1",
+      "currency": null,
+      "deductions": [],
+      "earnings": [],
+      "employee_id": "7770002",
+      "extras": {},
+      "gross_pay": null,
+      "net_pay": null,
+      "pay_date": "2025-02-20",
+      "pay_group_raw": null,
+      "paycheck_type": null,
+      "paycheck_type_raw": null,
+      "payments": [],
+      "period_end": "2025-02-15",
+      "period_start": "2025-02-01",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /v2/companies/{cid}/payrolls/{id}/pay-statements/{id}",
+        "source_path": "$.pay_statements[1]"
+      },
+      "provider": "ukg-ready",
+      "record_type": "paycheck",
+      "run_id": "880001",
+      "source_id": "990002",
+      "status_raw": "CLOSED",
+      "taxes": [],
+      "tenant_id": "snapshot",
+      "void_date": null
+    }
+  ]
+}

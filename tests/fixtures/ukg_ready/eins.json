@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "id": 12, "ein_tax_id": "55-1234567", "ein_name": "Northwind Services Inc", "ein_currency_code": "USD", "ein_country_id": "USA" },
+    { "id": 13, "ein_tax_id": "55-7654321", "ein_name": "Northwind Canada Ltd", "ein_currency_code": "CAD", "ein_country_id": "CAN" }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "errorCode": "",
+  "errorMessage": "",
+  "total": 2,
+  "startpage": 0,
+  "count": 100,
+  "payrollVouchers": [
+    {
+      "voucherId": "V-5001",
+      "status": "P",
+      "type": "R",
+      "checkNumber": "880001",
+      "checkNum": "880001",
+      "payDate": "2025-01-17",
+      "employeeId": "E1001",
+      "payPeriod": "2025-02",
+      "payPeriodStart": "2025-01-04",
+      "payPeriodEnd": "2025-01-17",
+      "payGroup": "BIWK",
+      "dateProcessed": "2025-01-14",
+      "batchId": "B-2025-02",
+      "totalEarnings": 3846.15,
+      "earnAmount": 3846.15,
+      "otherEarnAmount": 0,
+      "netPay": 2410.37,
+      "checkAmt": 2410.37,
+      "fitTaxableAmount": 3503.84,
+      "payStubType": "Electronic",
+      "earning": [
+        {
+          "payCode": "REG",
+          "payClass": "R",
+          "payClassDescription": "Regular",
+          "chargeDate": "2025-01-17",
+          "hoursUnits": 80.00,
+          "hoursWorked": 80.00,
+          "unitRate": 48.0769,
+          "payAmount": 3846.15,
+          "department": "PLAT",
+          "glCode": "6000"
+        }
+      ],
+      "otherEarningsDetail": [],
+      "employeeTax": [
+        { "empTaxDeductCode": "FIT", "empTaxDeductCodeDesc": "Federal income tax", "empTaxableAmount": 3503.84, "empTaxAmount": 512.30, "empOverLimitAmount": 0 },
+        { "empTaxDeductCode": "FICA", "empTaxDeductCodeDesc": "Social security", "empTaxableAmount": 3846.15, "empTaxAmount": 238.46 },
+        { "empTaxDeductCode": "MED", "empTaxDeductCodeDesc": "Medicare", "empTaxableAmount": 3846.15, "empTaxAmount": 55.77 }
+      ],
+      "companyTax": [
+        { "comTaxEntity": "FED", "comTaxDeductCode": "FICA", "comTaxDeductCodeDesc": "Employer social security", "comTaxableAmount": 3846.15, "comTaxAmount": 238.46, "comTaxRate": 0.062, "comTaxType": "G" }
+      ],
+      "deduction": [
+        { "deductCode": "401K", "deductDescription": "401(k) pre-tax", "deductAmount": 230.77, "deductType": "K", "planId": "PLAN401" },
+        { "deductCode": "MED125", "deductDescription": "Medical", "deductAmount": 98.50, "deductType": "C", "planId": "MEDPPO" }
+      ],
+      "otherDeduction": [
+        { "otherDeductCode": "PARK", "otherDeductDescription": "Parking", "otherDeductAmount": 0, "otherDeductOneTimeSwitch": "N" }
+      ],
+      "benefit": [
+        { "planId": "MEDPPO", "premiumAmt": 520.00, "empContrib": 98.50, "empDeduct": 98.50, "coveragePeriod": "2025-01", "premiumCost": 520.00 }
+      ],
+      "employerContributions": [
+        { "code": "MEDPPO", "description": "Medical PPO employer share", "amount": 421.50 }
+      ],
+      "retirement": {
+        "planId": "PLAN401",
+        "planYearPeriod": "2025",
+        "baseEarnings": 3846.15,
+        "electiveContributionsPreTax": 230.77,
+        "rothContributionsPostTax": 0,
+        "employerMatchingContributions": 115.38
+      },
+      "bankAccount": "OPS-1",
+      "directDeposit": [
+        { "transitNum": "111000025", "accountNum": "000123456789", "status": "S", "amount": 500.00 },
+        { "transitNum": "122000247", "accountNum": "998877665544", "status": "S", "amount": 1910.37 }
+      ],
+      "glAcctDistribution": { "glTotalDebit": 3846.15, "glTotalCredit": 3846.15 },
+      "wcInformation": { "wcPolicy": "WC-1" }
+    },
+    {
+      "voucherId": "V-5002",
+      "status": "P",
+      "type": "S",
+      "payDate": "2025-01-17",
+      "employeeId": "E1002",
+      "payPeriodStart": "2025-01-04",
+      "payPeriodEnd": "2025-01-17",
+      "batchId": "B-2025-02",
+      "totalEarnings": 500.00,
+      "earnAmount": 450.00,
+      "otherEarnAmount": 50.00,
+      "netPay": 0,
+      "checkAmt": 0,
+      "earning": [
+        { "payCode": "REG", "payClassDescription": "Regular", "hoursUnits": 20, "hoursWorked": 20, "unitRate": 22.50, "payAmount": 450.00 }
+      ],
+      "otherEarningsDetail": [
+        { "otherEarnCode": "BONUS", "otherEarnsDesc": "Spot bonus", "otherEarnAmount": 50.00 }
+      ],
+      "employeeTax": [],
+      "companyTax": [],
+      "deduction": [],
+      "directDeposit": []
+    }
+  ]
+}

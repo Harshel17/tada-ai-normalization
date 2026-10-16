@@ -1,0 +1,10 @@
+{
+  "deposits": [],
+  "_links": {
+    "add": "https://example.test/add",
+    "reserve_live_check": "https://example.test/r",
+    "cancel_pre_note": "https://example.test/c",
+    "upload_document": "https://example.test/u"
+  },
+  "_routing_type": "ABA"
+}

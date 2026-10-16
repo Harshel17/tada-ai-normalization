@@ -1,0 +1,15 @@
+[
+  {
+    "id": 8801,
+    "employeeId": 90001,
+    "payItemCode": "401K",
+    "referenceNumber": "REF-1",
+    "startDate": "2024-01-01T00:00:00",
+    "stopDate": null,
+    "calcParams": [
+      { "paramType": "Percent", "paramValue": 5.0 },
+      { "paramType": "MaxPerPay", "paramValue": 0 }
+    ]
+  },
+  { "id": 8802, "employeeId": 90001, "payItemCode": "UNION", "startDate": "2024-03-01T00:00:00", "stopDate": "2024-12-31T00:00:00", "calcParams": [] }
+]

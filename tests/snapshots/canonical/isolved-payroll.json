@@ -1,0 +1,303 @@
+{
+  "entity_type": "payroll",
+  "issues": [],
+  "provider": "isolved",
+  "records": [
+    {
+      "company_id": "4501",
+      "direct_deposit_date": null,
+      "ein_id": null,
+      "extras": {
+        "payPeriod": 5,
+        "processedBy": "svc-payroll",
+        "regularCheckAutoPay": false,
+        "scheduledRunDate": "2025-02-05T00:00:00"
+      },
+      "name": "Weekly 5",
+      "pay_date": "2025-02-07",
+      "period_end": "2025-02-02",
+      "period_start": "2025-01-27",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET .../payrollRunHistory/{payrollId}",
+        "source_path": "$.payroll_run"
+      },
+      "provider": "isolved",
+      "record_type": "payroll_run",
+      "run_number": 1,
+      "run_type_raw": "Regular",
+      "scheduled_pay_date": "2025-02-07",
+      "source_id": "600123",
+      "status_raw": "Completed",
+      "tenant_id": "snapshot"
+    },
+    {
+      "benefits": [
+        {
+          "accumulators": {},
+          "code": "401K",
+          "description": "Retirement",
+          "employee_contribution": "38.50",
+          "employee_deducted_amount": null,
+          "employer_contribution": "23.10",
+          "extras": {
+            "ytdEmployerContribution": "115.50"
+          },
+          "line_no": 1,
+          "plan_id": null,
+          "premium_amount": null,
+          "source_kind": "benefits"
+        }
+      ],
+      "check_amount": "604.15",
+      "check_number": "10442",
+      "company_id": "4501",
+      "currency": null,
+      "deductions": [
+        {
+          "accumulators": {
+            "ytd": "192.50"
+          },
+          "amount": "38.50",
+          "category_raw": null,
+          "code": "401K",
+          "description": "401(k)",
+          "employer_amount": null,
+          "extras": {
+            "id": 20,
+            "sequence": 1
+          },
+          "line_no": 1,
+          "plan_id": null,
+          "source_kind": "deductions"
+        },
+        {
+          "accumulators": {},
+          "amount": "18.41",
+          "category_raw": null,
+          "code": "GARN1",
+          "description": "Wage garnishment",
+          "employer_amount": null,
+          "extras": {
+            "id": 21,
+            "sequence": 1
+          },
+          "line_no": 2,
+          "plan_id": null,
+          "source_kind": "garnishments"
+        }
+      ],
+      "earnings": [
+        {
+          "accumulators": {
+            "current": "693.00",
+            "ytd": "3465.00"
+          },
+          "amount": "693.00",
+          "code": "REG",
+          "description": "Regular",
+          "extras": {
+            "id": 1,
+            "labors": [
+              {
+                "dollars": "693.00",
+                "hours": "36.00",
+                "laborCode": "CC-10",
+                "rate": "19.25"
+              }
+            ],
+            "sequence": 1,
+            "ytdHours": "180.00"
+          },
+          "hours": "36.00",
+          "is_memo": false,
+          "line_no": 1,
+          "rate": null,
+          "source_kind": "earnings",
+          "units": "0",
+          "work_date_from": null,
+          "work_date_to": null
+        },
+        {
+          "accumulators": {
+            "current": "77.00",
+            "ytd": "400.00"
+          },
+          "amount": "77.00",
+          "code": "TIPS",
+          "description": "Tips",
+          "extras": {
+            "id": 2,
+            "sequence": 2
+          },
+          "hours": "0",
+          "is_memo": false,
+          "line_no": 2,
+          "rate": null,
+          "source_kind": "earnings",
+          "units": null,
+          "work_date_from": null,
+          "work_date_to": null
+        },
+        {
+          "accumulators": {},
+          "amount": "12.00",
+          "code": "MEMO1",
+          "description": "Memo meals",
+          "extras": {
+            "id": 3,
+            "sequence": 3
+          },
+          "hours": null,
+          "is_memo": true,
+          "line_no": 3,
+          "rate": null,
+          "source_kind": "earnings",
+          "units": null,
+          "work_date_from": null,
+          "work_date_to": null
+        }
+      ],
+      "employee_id": "90001",
+      "extras": {
+        "accruals": [
+          {
+            "accrualName": "PTO",
+            "amountAccrued": "1.5",
+            "amountTaken": 0,
+            "endingBalance": "21.5",
+            "id": 1
+          }
+        ],
+        "directDepositAmount": "604.15",
+        "directDeposits": [
+          {
+            "id": 30
+          },
+          {
+            "id": 31
+          }
+        ],
+        "employeeFederalExemptions": 0,
+        "employeeFederalFilingStatus": "Single",
+        "employeeNumber": "0042",
+        "grossWages": "770.00",
+        "legalCompanyName": "Bluebird Foods LLC",
+        "payrollRunNumber": 1,
+        "payrollRunType": "Regular",
+        "voucherNumber": "V-1"
+      },
+      "gross_pay": "770.00",
+      "net_pay": "604.15",
+      "pay_date": "2025-02-07",
+      "pay_group_raw": null,
+      "paycheck_type": null,
+      "paycheck_type_raw": "Regular",
+      "payments": [
+        {
+          "account_masked": "****1111",
+          "amount": "100.00",
+          "description": "Savings sweep",
+          "line_no": 1,
+          "routing_number": null,
+          "status_raw": null
+        },
+        {
+          "account_masked": "****3333",
+          "amount": "504.15",
+          "description": "Net pay",
+          "line_no": 2,
+          "routing_number": null,
+          "status_raw": null
+        }
+      ],
+      "period_end": "2025-02-02",
+      "period_start": "2025-01-27",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.checks[0].directDeposits[0].account",
+          "$.checks[0].directDeposits[1].account",
+          "$.checks[0].employeeAddress1",
+          "$.checks[0].employeeCity",
+          "$.checks[0].employeeName",
+          "$.checks[0].employeeSSN",
+          "$.checks[0].employeeState",
+          "$.checks[0].employeeZipCode"
+        ],
+        "source_endpoint": "GET .../employees/{employeeId}/checks/{id}",
+        "source_path": "$.checks[0]"
+      },
+      "provider": "isolved",
+      "record_type": "paycheck",
+      "run_id": "600123",
+      "source_id": "99000111",
+      "status_raw": null,
+      "taxes": [
+        {
+          "accumulators": {
+            "ytd": "306.00"
+          },
+          "amount": "61.20",
+          "code": "FIT",
+          "description": "Federal Income Tax",
+          "extras": {
+            "id": 10
+          },
+          "liability": "employee",
+          "line_no": 1,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "735.00"
+        },
+        {
+          "accumulators": {
+            "ytd": "238.70"
+          },
+          "amount": "47.74",
+          "code": "SS",
+          "description": "Social Security",
+          "extras": {
+            "id": 11
+          },
+          "liability": "employee",
+          "line_no": 2,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "770.00"
+        },
+        {
+          "accumulators": {},
+          "amount": "0",
+          "code": "FUTA",
+          "description": "Federal Unemployment",
+          "extras": {
+            "id": 12
+          },
+          "liability": "employer",
+          "line_no": 3,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": "0"
+        },
+        {
+          "accumulators": {},
+          "amount": "1.00",
+          "code": "XYZ",
+          "description": "Unknown who pays",
+          "extras": {
+            "id": 13
+          },
+          "liability": null,
+          "line_no": 4,
+          "rate": null,
+          "source_kind": "taxes",
+          "taxable_wage": null
+        }
+      ],
+      "tenant_id": "snapshot",
+      "void_date": null
+    }
+  ]
+}

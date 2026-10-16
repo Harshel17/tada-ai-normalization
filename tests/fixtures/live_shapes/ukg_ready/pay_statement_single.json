@@ -1,0 +1,145 @@
+{
+  "id": 990001,
+  "employee": {
+    "account_id": 7770001
+  },
+  "pay_date": "2025-02-20",
+  "status": "FINALIZED",
+  "type": {
+    "id": 1,
+    "display_name": "Regular"
+  },
+  "pay_period_start": "2025-02-01",
+  "pay_period_end": "2025-02-15",
+  "earnings": [
+    {
+      "id": 1,
+      "type_name": "EARNING",
+      "batch": {
+        "id": 5,
+        "display_name": "Main"
+      },
+      "date_range_from": "2025-02-01",
+      "date_range_to": "2025-02-15",
+      "hours": 86,
+      "base_rate": 31.25,
+      "quantity": 86,
+      "ee_amount": 2687.5,
+      "earning": {
+        "name": "Regular",
+        "external_id": "REG",
+        "code": "REG"
+      },
+      "shift": {
+        "id": 1,
+        "name": "Day"
+      }
+    },
+    {
+      "id": 2,
+      "type_name": "EARNING",
+      "hours": 4,
+      "base_rate": 46.875,
+      "quantity": 4,
+      "ee_amount": 187.5,
+      "earning": {
+        "name": "Overtime",
+        "external_id": "OT",
+        "code": "OT"
+      }
+    },
+    {
+      "id": 3,
+      "type_name": "EARNING",
+      "ee_amount": 0,
+      "earning": {
+        "name": "Holiday",
+        "external_id": "HOL"
+      }
+    }
+  ],
+  "deductions": [
+    {
+      "id": 11,
+      "type_name": "DEDUCTION",
+      "ee_amount": 92.5,
+      "er_amount": 185.0,
+      "deduction": {
+        "name": "Medical",
+        "external_id": "MED",
+        "code": "MED"
+      },
+      "vendor": {
+        "id": 21,
+        "name": "Acme Health"
+      }
+    },
+    {
+      "id": 12,
+      "type_name": "DEDUCTION",
+      "ee_amount": 0,
+      "er_amount": 0,
+      "deduction": {
+        "name": "Retirement",
+        "code": "RET"
+      }
+    }
+  ],
+  "taxes": [
+    {
+      "id": 21,
+      "type_name": "TAX",
+      "ee_amount": 166.43,
+      "er_amount": null,
+      "ee_gross_wage": 2875.0,
+      "ee_subject_wage": 2875.0,
+      "company_tax": {
+        "code": "FICA-SS",
+        "name": "Social Security",
+        "abbrev": "SS"
+      }
+    },
+    {
+      "id": 22,
+      "type_name": "TAX",
+      "ee_amount": 40.19,
+      "er_amount": 40.19,
+      "ee_subject_wage": 2875.0,
+      "er_subject_wage": 2875.0,
+      "company_tax": {
+        "code": "FICA-MED",
+        "name": "Medicare",
+        "abbrev": "MED"
+      }
+    },
+    {
+      "id": 23,
+      "type_name": "TAX",
+      "er_amount": 17.25,
+      "er_subject_wage": 2875.0,
+      "company_tax": {
+        "code": "SUTA",
+        "name": "State Unemployment"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "type_name": "MESSAGE",
+      "message": {
+        "text": "Check totals reconciled",
+        "severity": "INFO"
+      }
+    }
+  ],
+  "payments": [
+    {
+      "id": 31,
+      "type_name": "PAYMENT",
+      "ee_amount": 2300.0
+    }
+  ],
+  "calcUpto": null,
+  "emptyEarning": []
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 4501,
+    "client": { "id": 77, "clientCode": "BLUE", "clientName": "Bluebird Holdings" },
+    "legalCode": "BLUE-01",
+    "legalName": "Bluebird Foods LLC",
+    "dbaName": "Bluebird Cafe",
+    "federalEIN": "98-7654321",
+    "naicsCode": "722511",
+    "status": "Active",
+    "legalAddress": {
+      "streetAddress1": "9 Harbor Rd",
+      "streetAddress2": null,
+      "city": "Portland",
+      "state": "ME",
+      "zipCode": "04101",
+      "phoneNumber": "2075550123"
+    },
+    "payGroups": [{ "id": 11, "name": "Weekly" }],
+    "forceDirectDepositPrenote": true,
+    "links": [{ "href": "https://example.test/x", "method": "GET", "rel": "self" }]
+  }
+]

@@ -1,0 +1,228 @@
+{
+  "entity_type": "employee",
+  "issues": [],
+  "provider": "ukg-ready",
+  "records": [
+    {
+      "aca_employment_status_raw": null,
+      "address": {
+        "city": "Boise",
+        "country": "USA",
+        "county": null,
+        "house_number": null,
+        "line1": "44 Lake Dr",
+        "line2": null,
+        "line3": null,
+        "postal_code": "83702",
+        "state": "ID"
+      },
+      "benefits": {
+        "auto_enrollment_eligibility_raw": "ELIGIBLE",
+        "benefit_group": null,
+        "benefit_salary": null,
+        "cafeteria_contributions": [],
+        "court_ordered_medical": null,
+        "dental_eligibility_raw": "PAYEE",
+        "dependent_benefits_eligibility_raw": "NOT_ELIGIBLE",
+        "enrollment_completed": null,
+        "enrollment_in_progress": null,
+        "enrollment_type_raw": null,
+        "medical_eligibility_raw": "ELIGIBLE",
+        "paid_through_date": null,
+        "retirement_benefit_group": null
+      },
+      "birth_date": "1985-07-30",
+      "company_id": "CID1",
+      "compensation": {
+        "alternate_rates": [],
+        "annual_salary": null,
+        "compa_ratio": null,
+        "currency": "USD",
+        "effective_date": "2024-07-01",
+        "hourly_rate": "31.25",
+        "last_change_amount": null,
+        "last_change_date": null,
+        "last_change_percent": null,
+        "last_pay_date": null,
+        "last_performance_review_date": null,
+        "last_performance_review_job_title": null,
+        "last_performance_review_rating_raw": null,
+        "next_performance_review_date": null,
+        "next_review_date": null,
+        "other_rate": null,
+        "other_rate_period": null,
+        "pay_frequency_raw": null,
+        "pay_group_raw": null,
+        "pay_period_amount": null,
+        "pay_type": null,
+        "pay_type_raw": "2",
+        "per_diem_amount": null,
+        "periods_per_year": 26,
+        "standard_hours_per_day": "8",
+        "standard_hours_per_pay_period": null,
+        "standard_hours_per_week": null
+      },
+      "deceased_date": null,
+      "department_code": null,
+      "division_code": null,
+      "eeo_job_category_raw": "PROFESSIONALS",
+      "eligible_for_rehire": null,
+      "email": "maria.diaz@northwind.example.test",
+      "emergency_contacts": [],
+      "employee_number": "EMP-204",
+      "employee_type_effective_date": null,
+      "employee_type_raw": "3",
+      "employment_status": null,
+      "employment_status_raw": "ACTIVE",
+      "extras": {
+        "compensation_history": [
+          {
+            "amount": "52000.00",
+            "amount_period": "YEAR",
+            "currency": "USD",
+            "effective_from": "2022-08-01",
+            "employee": {
+              "account_id": 7770001
+            },
+            "id": 1,
+            "num_pp_in_year": 26
+          },
+          {
+            "id": 2
+          }
+        ],
+        "demographics": {
+          "citizenship": "US_CITIZEN",
+          "full_time_student": false
+        },
+        "external_id": "HRIS-204",
+        "national_id_numbers": [
+          {
+            "primary": true,
+            "type": "SSN"
+          }
+        ],
+        "pay_info": {
+          "pay_grade": {
+            "parent": {
+              "code": 30,
+              "id": 3,
+              "name": "Grade group"
+            }
+          },
+          "payroll_classification": "REGULAR"
+        },
+        "timezone": "America/Boise"
+      },
+      "fax": null,
+      "fica_exempt": null,
+      "first_name": "Maria",
+      "flsa_exempt": null,
+      "full_time_equivalent": null,
+      "gender": "female",
+      "gender_raw": "FEMALE",
+      "hire_date": "2018-03-12",
+      "home_phone": null,
+      "is_business_owner": null,
+      "is_contractor": null,
+      "is_manager": null,
+      "is_officer": null,
+      "is_remote_worker": null,
+      "is_seasonal": false,
+      "is_supervisor": null,
+      "is_union_member": null,
+      "job_code": "55",
+      "job_effective_date": "2024-07-01",
+      "job_group": null,
+      "job_title": null,
+      "labor_allocations": [],
+      "last_name": "Diaz",
+      "last_worked_date": null,
+      "leave_return_date": null,
+      "mailing_address": {
+        "city": "Boise",
+        "country": "USA",
+        "county": null,
+        "house_number": null,
+        "line1": "PO Box 9",
+        "line2": null,
+        "line3": null,
+        "postal_code": "83703",
+        "state": "ID"
+      },
+      "manager_id": "7770000",
+      "marital_status_raw": null,
+      "middle_name": null,
+      "mobile_phone": "2085550111",
+      "name_prefix": "Ms",
+      "name_suffix": null,
+      "non_resident_alien": null,
+      "org_assignments": [
+        {
+          "code": "301",
+          "description": null,
+          "kind": "cost_center_1"
+        },
+        {
+          "code": "402",
+          "description": null,
+          "kind": "cost_center_2"
+        },
+        {
+          "code": "9",
+          "description": null,
+          "kind": "pay_grade"
+        }
+      ],
+      "original_hire_date": null,
+      "peo_start_date": "2018-03-01",
+      "personal_email": null,
+      "preferred_language": null,
+      "preferred_name": "Mari",
+      "preferred_phone": "mobile",
+      "preferred_pronouns": null,
+      "provenance": {
+        "derived_fields": [
+          "compensation.standard_hours_per_day"
+        ],
+        "redacted_paths": [
+          "$.employee.national_id_numbers[0].value",
+          "$.employee.social_security",
+          "$.pay_info.bank_account_number"
+        ],
+        "source_endpoint": "GET /v2/companies/{cid}/employees/{aid}",
+        "source_path": "$.employee"
+      },
+      "provider": "ukg-ready",
+      "record_type": "employee",
+      "rehire_date": "2022-08-01",
+      "retirement_date": null,
+      "school_district_code": null,
+      "secondary_email": "mdiaz@example.test",
+      "seniority_date": "2018-03-12",
+      "soc_code": null,
+      "source_id": "7770001",
+      "ssn_last4": "3333",
+      "start_date": "2018-03-19",
+      "status_date": null,
+      "supervisor_id": null,
+      "tax_form_address": null,
+      "tax_geo_code": null,
+      "tax_withholdings": [],
+      "tenant_id": "snapshot",
+      "termination_date": null,
+      "termination_explanation": null,
+      "termination_reason_raw": null,
+      "termination_type_raw": null,
+      "timeclock_id": null,
+      "union_code_raw": "4",
+      "union_start_date": null,
+      "username": "mdiaz",
+      "work_email": null,
+      "work_location_code": null,
+      "work_phone": "2085550112",
+      "work_phone_extension": null,
+      "workers_comp_code": "WC-8810"
+    }
+  ]
+}

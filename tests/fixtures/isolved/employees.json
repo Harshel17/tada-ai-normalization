@@ -1,0 +1,114 @@
+{
+  "nextPageUrl": null,
+  "previousPageUrl": null,
+  "totalItems": 2,
+  "totalPages": 1,
+  "results": [
+    {
+      "id": 90001,
+      "employeeNumber": "0042",
+      "legalCode": "BLUE-01",
+      "nameAddress": {
+        "firstName": "Alex",
+        "middleName": "",
+        "lastName": "Okafor",
+        "preferredName": "Lex",
+        "preferredPronouns": "they/them",
+        "residentGeoCode": "GEO-ME-1",
+        "schoolDistrictCode": 1234,
+        "prefix": "Mx",
+        "address1": "5 Pine St",
+        "address2": null,
+        "city": "Portland",
+        "state": "ME",
+        "zipCode": "04101"
+      },
+      "overrideAddress": {
+        "address1": "PO Box 12",
+        "city": "Portland",
+        "state": "ME",
+        "zipCode": "04102",
+        "useForPaychecks": true,
+        "useForTaxForms": true
+      },
+      "personal": {
+        "homePhone": "2075550140",
+        "mobilePhone": "2075550141",
+        "officePhone": "",
+        "personalEmailAddress": "alex.personal@example.test",
+        "faxNumber": "2075550150"
+      },
+      "emailAddress": "alex@bluebird.example.test",
+      "ssn": "987-65-4321",
+      "idType": "SSN",
+      "birthDate": "1991-11-02T00:00:00",
+      "gender": "Female",
+      "maritalStatus": "S",
+      "employmentStatus": "Active",
+      "statusDate": "2023-05-15T00:00:00",
+      "hireDate": "2023-05-15T00:00:00",
+      "originalHireDate": "2020-08-01T00:00:00",
+      "rehireDate": "2023-05-15T00:00:00",
+      "terminationDate": null,
+      "jobCode": "BAR",
+      "jobTitle": "Barista Lead",
+      "jobFLSAExempt": false,
+      "employmentCategoryCode": "FT",
+      "payType": "Hourly",
+      "payGroup": "Weekly",
+      "payFrequency": 2,
+      "hourlyRate": 19.25,
+      "perPaySalary": 770.00,
+      "annualSalary": 40040.00,
+      "normalHours": 40.00,
+      "salaryEffectiveDate": "2024-06-01T00:00:00",
+      "workLocation": "PDX-1",
+      "assignedManager": { "id": 90000, "employeeName": "Pat Lee", "employeeNumber": "0001", "legalId": 4501 },
+      "organizations": [
+        { "id": 1, "organizationId": 5, "title": "Department", "value": "FOH", "valueDescription": "Front of House" }
+      ],
+      "labors": [
+        { "laborField": "Cost Center", "laborFieldId": 2, "laborValue": "CC-10", "laborDescription": "Cafe" }
+      ],
+      "directDeposits": [
+        { "id": 301, "accountNumber": "5550001111", "accountType": "Checking", "amount": 100.00, "bankName": "Harbor CU", "description": "Savings sweep", "frequency": "Every Pay", "routingNumber": "011000015", "sequenceNumber": 1, "status": "Active" }
+      ],
+      "isManager": false,
+      "isSupervisor": true,
+      "isRemoteWorker": false,
+      "jobIsSeasonal": false,
+      "jobIsUnion": true,
+      "eligibleForRehire": true,
+      "jobGroup": "Cafe Staff",
+      "jobEffectiveDate": "2024-06-01T00:00:00",
+      "socCode": "35-3023",
+      "jobEeoCategory": "Service Workers",
+      "employmentCategoryFullTimeEquivalent": 1.00,
+      "workersCompCode": "9079",
+      "timeclockId": "TC-42",
+      "team": { "id": 5, "teamName": "Morning Crew", "teamDescription": "Opens the cafe" },
+      "payRates": [{ "payRateName": "Overtime", "rateValue": 28.875 }],
+      "taxes": {
+        "federal": { "taxCategoryId": "FEDWT", "taxDescription": "Federal Withholding", "filingStatus": "Single", "primaryExemptions": 1, "dependantExemptionAmount": 0, "additionalAmount": 5.00, "multipleJobsOrSpouseWorks": false, "isBlocked": false },
+        "residentState": { "taxState": "ME", "filingStatus": "S", "primaryExemptions": 1, "isBlocked": false }
+      },
+      "isPending": false,
+      "tobaccoUse": null,
+      "links": [{ "href": "https://example.test/e", "method": "GET", "rel": "self" }]
+    },
+    {
+      "id": 90002,
+      "employeeNumber": "0043",
+      "nameAddress": { "firstName": "Riley", "lastName": "Chen", "address1": "7 Elm", "city": "Bangor", "state": "ME", "zipCode": "04401" },
+      "ssn": "",
+      "gender": "Non-binary",
+      "employmentStatus": "Terminated",
+      "terminationDate": "2024-12-20T00:00:00",
+      "terminationReason": "Relocation",
+      "terminationType": "Voluntary",
+      "hourlyRate": 0,
+      "perPaySalary": null,
+      "annualSalary": null
+    }
+  ]
+}

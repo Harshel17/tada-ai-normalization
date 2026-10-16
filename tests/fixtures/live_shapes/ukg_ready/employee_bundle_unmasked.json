@@ -1,0 +1,149 @@
+{
+  "employee": {
+    "id": 7770001,
+    "username": "mdiaz",
+    "employee_id": "EMP-204",
+    "external_id": "HRIS-204",
+    "first_name": "Maria",
+    "middle_name": "",
+    "last_name": "Diaz",
+    "nickname": "Mari",
+    "salutation": "Ms",
+    "status": "ACTIVE",
+    "address": {
+      "country": "USA",
+      "address_line_1": "44 Lake Dr",
+      "city": "Boise",
+      "state_code": "ID",
+      "zip": "83702"
+    },
+    "use_separate_mailing_address": true,
+    "mailing_address": {
+      "country": "USA",
+      "address_line_1": "PO Box 9",
+      "city": "Boise",
+      "state_code": "ID",
+      "zip": "83703"
+    },
+    "phones": {
+      "cell_phone": "2085550111",
+      "home_phone": null,
+      "work_phone": "2085550112",
+      "preferred_phone": "CELL"
+    },
+    "primary_email": "maria.diaz@northwind.example.test",
+    "secondary_email": "mdiaz@example.test",
+    "social_security": "912-34-6789",
+    "national_id_numbers": [
+      {
+        "type": "SSN",
+        "value": "912-34-6789",
+        "primary": true
+      }
+    ],
+    "dates": {
+      "hired": "2018-03-12",
+      "re_hired": "2022-08-01",
+      "started": "2018-03-19",
+      "peo_hired": "2018-03-01",
+      "birthday": "1985-07-30",
+      "seniority": "2018-03-12",
+      "terminated": null
+    },
+    "managers": [
+      {
+        "index": 1,
+        "empl_ref": {
+          "account_id": 7770000
+        }
+      }
+    ],
+    "cost_centers_info": {
+      "defaults": [
+        {
+          "index": 1,
+          "value": {
+            "id": 301
+          }
+        },
+        {
+          "index": 2,
+          "value": {
+            "id": 402
+          }
+        }
+      ]
+    },
+    "timezone": "America/Boise",
+    "_links": {
+      "self": "https://example.test/employees/7770001"
+    }
+  },
+  "demographics": {
+    "gender": "FEMALE",
+    "seasonal": false,
+    "citizenship": "US_CITIZEN",
+    "full_time_student": false
+  },
+  "pay_info": {
+    "default_job": {
+      "id": 55
+    },
+    "employee_type": {
+      "id": 3
+    },
+    "pay_type": {
+      "id": 2
+    },
+    "medical_eligibility": "ELIGIBLE",
+    "dental_eligibility": "PAYEE",
+    "dependent_benefits_eligibility": "NOT_ELIGIBLE",
+    "benefit_auto_enrollment_eligibility": "ELIGIBLE",
+    "job_last_changed": "2024-07-01",
+    "eeo_classification": "PROFESSIONALS",
+    "union": {
+      "id": 4
+    },
+    "workers_comp_code": {
+      "external_id": "WC-8810"
+    },
+    "standard_work_day": 28800000,
+    "pay_grade": {
+      "id": 9,
+      "parent": {
+        "id": 3,
+        "code": 30,
+        "name": "Grade group"
+      }
+    },
+    "payroll_classification": "REGULAR",
+    "bank_account_number": "000999888777"
+  },
+  "compensation_history": {
+    "compensations": [
+      {
+        "id": 1,
+        "employee": {
+          "account_id": 7770001
+        },
+        "effective_from": "2022-08-01",
+        "amount": 52000.0,
+        "amount_period": "YEAR",
+        "currency": "USD",
+        "num_pp_in_year": 26
+      },
+      {
+        "id": 2,
+        "employee": {
+          "account_id": 7770001
+        },
+        "effective_from": "2024-07-01",
+        "amount": 31.25,
+        "hourly_pay": 31.25,
+        "amount_period": "HOUR",
+        "currency": "USD",
+        "num_pp_in_year": 26
+      }
+    ]
+  }
+}

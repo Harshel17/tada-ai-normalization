@@ -1,0 +1,52 @@
+{
+  "deposits": [
+    {
+      "id": 5001,
+      "name": "Checking",
+      "description": "Main",
+      "sequence": 1,
+      "type": "DIRECT_DEPOSIT",
+      "active_from": "2023-01-01",
+      "active_to": null,
+      "active": true,
+      "amount": 250.0,
+      "calc_method": {
+        "display_name": "Flat",
+        "type": "FLAT_AMOUNT"
+      },
+      "account_type": "CHECKING",
+      "account_number": "55667788",
+      "routing_number": "123456780",
+      "routing_type": "ABA",
+      "pre_note_status": "COMPLETE_OK",
+      "payroll_frequency": {
+        "type": "EVERY_PAY"
+      },
+      "currency": "USD",
+      "year_to_date": 1250.0,
+      "_links": {
+        "self": "x"
+      }
+    },
+    {
+      "id": 5002,
+      "name": "Savings",
+      "sequence": 2,
+      "type": "DIRECT_DEPOSIT",
+      "active_from": "2023-01-01",
+      "active": true,
+      "percentage": 10,
+      "calc_method": {
+        "type": "GROSS_EARNING"
+      },
+      "account_type": "SAVINGS",
+      "account_number": "3344556677",
+      "routing_number": "123456780",
+      "routing_type": "ABA",
+      "pre_note_status": "SENT",
+      "currency": "USD"
+    }
+  ],
+  "_total_count": 4,
+  "is_eligible_for_paypal": false
+}

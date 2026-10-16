@@ -1,0 +1,26 @@
+{
+  "deductions": [
+    {
+      "id": 6001,
+      "sequence": 1,
+      "deduction": { "code": "MED", "name": "Medical" },
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "memo": "Open enrollment 2024",
+      "annual_max_amount": 2400,
+      "er_annual_max_amount": 4800,
+      "ee_frequency": { "display_name": "Every pay", "type": "EVERY_PAY" },
+      "er_frequency": { "type": "EVERY_PAY" },
+      "ee_calc_method": { "method": { "display_name": "Flat", "type": "FLAT_AMOUNT" }, "amount": 92.5 },
+      "vendor": { "id": 21, "name": "Acme Health" },
+      "cost_centers": [{ "index": 1, "value": { "id": 301, "display_name": "Ops" } }]
+    },
+    {
+      "id": 6002,
+      "sequence": 2,
+      "deduction": { "code": "RET", "name": "Retirement" },
+      "effective_from": "2024-01-01",
+      "ee_calc_method": { "method": { "type": "PERCENT_OF_GROSS" }, "percent": 4 }
+    }
+  ]
+}

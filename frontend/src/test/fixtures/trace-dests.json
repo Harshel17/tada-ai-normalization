@@ -1,0 +1,572 @@
+{
+  "company": {
+    "address.city": [
+      "copy"
+    ],
+    "address.line1": [
+      "copy"
+    ],
+    "address.postal_code": [
+      "combine",
+      "copy"
+    ],
+    "address.state": [
+      "copy"
+    ],
+    "display_name": [
+      "copy"
+    ],
+    "email": [
+      "copy"
+    ],
+    "federal_ein": [
+      "copy"
+    ],
+    "first_payroll_date": [
+      "date"
+    ],
+    "legal_entities[].country": [
+      "copy"
+    ],
+    "legal_entities[].currency_code": [
+      "copy"
+    ],
+    "legal_entities[].entity_id": [
+      "copy"
+    ],
+    "legal_entities[].name": [
+      "copy"
+    ],
+    "legal_entities[].tax_id": [
+      "copy"
+    ],
+    "legal_name": [
+      "copy"
+    ],
+    "naics_code": [
+      "copy"
+    ],
+    "parent_company_id": [
+      "copy"
+    ],
+    "parent_company_name": [
+      "copy"
+    ],
+    "phone": [
+      "copy"
+    ],
+    "service_type_raw": [
+      "copy"
+    ],
+    "sic_code": [
+      "copy"
+    ],
+    "source_id": [
+      "context",
+      "copy"
+    ],
+    "status": [
+      "enum"
+    ],
+    "status_date": [
+      "date"
+    ],
+    "status_raw": [
+      "copy"
+    ],
+    "website": [
+      "copy"
+    ]
+  },
+  "deduction": {
+    "amount": [
+      "decimal",
+      "route"
+    ],
+    "annual_max_amount": [
+      "decimal"
+    ],
+    "benefit_plan_id": [
+      "copy"
+    ],
+    "calc_method_raw": [
+      "copy"
+    ],
+    "calc_params[].type": [
+      "copy"
+    ],
+    "calc_params[].value": [
+      "decimal"
+    ],
+    "category_raw": [
+      "copy"
+    ],
+    "deduction_code": [
+      "copy"
+    ],
+    "employee_frequency_raw": [
+      "copy"
+    ],
+    "employee_id": [
+      "context",
+      "copy"
+    ],
+    "employer_annual_max_amount": [
+      "decimal"
+    ],
+    "employer_frequency_raw": [
+      "copy"
+    ],
+    "employer_match_amount": [
+      "decimal"
+    ],
+    "employer_match_method_raw": [
+      "copy"
+    ],
+    "loan_or_garnishment_id": [
+      "copy"
+    ],
+    "mandatory": [
+      "boolean"
+    ],
+    "max_amount": [
+      "decimal"
+    ],
+    "max_basis_raw": [
+      "copy"
+    ],
+    "memo": [
+      "copy"
+    ],
+    "name": [
+      "copy"
+    ],
+    "payee_code": [
+      "copy"
+    ],
+    "payee_name": [
+      "copy"
+    ],
+    "per_period_limit": [
+      "decimal"
+    ],
+    "percentage": [
+      "decimal",
+      "route"
+    ],
+    "reference_number": [
+      "copy"
+    ],
+    "sequence": [
+      "integer"
+    ],
+    "setup_kind": [
+      "assigned"
+    ],
+    "source_id": [
+      "copy",
+      "derive"
+    ],
+    "start_date": [
+      "date"
+    ],
+    "status": [
+      "enum"
+    ],
+    "status_raw": [
+      "copy"
+    ],
+    "stop_date": [
+      "date"
+    ],
+    "tracks_arrears": [
+      "boolean"
+    ]
+  },
+  "direct_deposit": {
+    "account_number_masked": [
+      "redact"
+    ],
+    "account_type": [
+      "enum"
+    ],
+    "account_type_raw": [
+      "copy"
+    ],
+    "active": [
+      "boolean",
+      "derive"
+    ],
+    "allocation_raw": [
+      "copy"
+    ],
+    "allocation_type": [
+      "derive",
+      "enum"
+    ],
+    "amount": [
+      "decimal",
+      "route"
+    ],
+    "bank_name": [
+      "copy"
+    ],
+    "cap_amount": [
+      "decimal"
+    ],
+    "currency": [
+      "copy"
+    ],
+    "effective_from": [
+      "date"
+    ],
+    "employee_id": [
+      "context",
+      "copy"
+    ],
+    "frequency_raw": [
+      "copy"
+    ],
+    "instruction_type_raw": [
+      "copy"
+    ],
+    "name": [
+      "copy"
+    ],
+    "percentage": [
+      "decimal",
+      "route"
+    ],
+    "percentage_basis_raw": [
+      "copy"
+    ],
+    "prenote_status_raw": [
+      "copy"
+    ],
+    "routing_number": [
+      "copy"
+    ],
+    "sequence": [
+      "integer"
+    ],
+    "skip_if_insufficient": [
+      "derive"
+    ],
+    "source_id": [
+      "copy",
+      "derive"
+    ],
+    "source_position": [
+      "derive"
+    ],
+    "status": [
+      "enum"
+    ],
+    "status_raw": [
+      "copy"
+    ],
+    "voucher_types_raw": [
+      "copy"
+    ]
+  },
+  "employee": {
+    "birth_date": [
+      "date"
+    ],
+    "compensation.annual_salary": [
+      "decimal"
+    ],
+    "compensation.currency": [
+      "copy"
+    ],
+    "compensation.effective_date": [
+      "date"
+    ],
+    "compensation.hourly_rate": [
+      "decimal"
+    ],
+    "compensation.last_change_amount": [
+      "decimal"
+    ],
+    "compensation.last_change_date": [
+      "date"
+    ],
+    "compensation.last_change_percent": [
+      "decimal"
+    ],
+    "compensation.pay_frequency_raw": [
+      "copy"
+    ],
+    "compensation.pay_group_raw": [
+      "copy"
+    ],
+    "compensation.pay_period_amount": [
+      "decimal"
+    ],
+    "compensation.pay_type": [
+      "enum"
+    ],
+    "compensation.pay_type_raw": [
+      "copy"
+    ],
+    "compensation.per_diem_amount": [
+      "decimal"
+    ],
+    "compensation.periods_per_year": [
+      "integer"
+    ],
+    "compensation.standard_hours_per_day": [
+      "derive"
+    ],
+    "compensation.standard_hours_per_pay_period": [
+      "decimal"
+    ],
+    "department_code": [
+      "copy"
+    ],
+    "division_code": [
+      "copy"
+    ],
+    "eeo_job_category_raw": [
+      "copy"
+    ],
+    "eligible_for_rehire": [
+      "boolean"
+    ],
+    "email": [
+      "copy"
+    ],
+    "employee_number": [
+      "copy"
+    ],
+    "employee_type_raw": [
+      "copy"
+    ],
+    "employment_status": [
+      "enum"
+    ],
+    "employment_status_raw": [
+      "copy"
+    ],
+    "first_name": [
+      "copy"
+    ],
+    "flsa_exempt": [
+      "boolean"
+    ],
+    "full_time_equivalent": [
+      "decimal"
+    ],
+    "gender": [
+      "enum"
+    ],
+    "gender_raw": [
+      "copy"
+    ],
+    "hire_date": [
+      "date"
+    ],
+    "home_phone": [
+      "copy"
+    ],
+    "is_contractor": [
+      "boolean"
+    ],
+    "is_manager": [
+      "boolean"
+    ],
+    "is_officer": [
+      "boolean"
+    ],
+    "is_seasonal": [
+      "boolean"
+    ],
+    "is_supervisor": [
+      "boolean"
+    ],
+    "job_code": [
+      "copy"
+    ],
+    "job_effective_date": [
+      "date"
+    ],
+    "job_group": [
+      "copy"
+    ],
+    "job_title": [
+      "copy"
+    ],
+    "last_name": [
+      "copy"
+    ],
+    "last_worked_date": [
+      "date"
+    ],
+    "leave_return_date": [
+      "date"
+    ],
+    "manager_id": [
+      "copy"
+    ],
+    "marital_status_raw": [
+      "copy"
+    ],
+    "middle_name": [
+      "copy"
+    ],
+    "mobile_phone": [
+      "copy"
+    ],
+    "name_prefix": [
+      "copy"
+    ],
+    "original_hire_date": [
+      "date"
+    ],
+    "peo_start_date": [
+      "date"
+    ],
+    "personal_email": [
+      "copy"
+    ],
+    "preferred_name": [
+      "copy"
+    ],
+    "preferred_pronouns": [
+      "copy"
+    ],
+    "rehire_date": [
+      "date"
+    ],
+    "secondary_email": [
+      "copy"
+    ],
+    "seniority_date": [
+      "date"
+    ],
+    "ssn_last4": [
+      "redact"
+    ],
+    "start_date": [
+      "date"
+    ],
+    "status_date": [
+      "date"
+    ],
+    "termination_date": [
+      "date"
+    ],
+    "termination_explanation": [
+      "copy"
+    ],
+    "termination_reason_raw": [
+      "copy"
+    ],
+    "termination_type_raw": [
+      "copy"
+    ],
+    "timeclock_id": [
+      "copy"
+    ],
+    "username": [
+      "copy"
+    ],
+    "work_email": [
+      "copy"
+    ],
+    "work_location_code": [
+      "copy"
+    ],
+    "work_phone": [
+      "copy"
+    ],
+    "work_phone_extension": [
+      "copy"
+    ]
+  },
+  "paycheck": {
+    "check_amount": [
+      "decimal"
+    ],
+    "check_number": [
+      "copy",
+      "integer"
+    ],
+    "employee_id": [
+      "copy"
+    ],
+    "gross_pay": [
+      "decimal",
+      "derive"
+    ],
+    "net_pay": [
+      "decimal"
+    ],
+    "pay_date": [
+      "date"
+    ],
+    "pay_group_raw": [
+      "copy"
+    ],
+    "paycheck_type": [
+      "enum"
+    ],
+    "paycheck_type_raw": [
+      "copy"
+    ],
+    "period_end": [
+      "date"
+    ],
+    "period_start": [
+      "date"
+    ],
+    "run_id": [
+      "copy"
+    ],
+    "source_id": [
+      "copy"
+    ],
+    "status_raw": [
+      "copy"
+    ]
+  },
+  "payroll_run": {
+    "direct_deposit_date": [
+      "date"
+    ],
+    "ein_id": [
+      "copy"
+    ],
+    "name": [
+      "copy"
+    ],
+    "pay_date": [
+      "date",
+      "derive"
+    ],
+    "period_end": [
+      "date",
+      "derive"
+    ],
+    "period_start": [
+      "date",
+      "derive"
+    ],
+    "run_number": [
+      "integer"
+    ],
+    "run_type_raw": [
+      "copy"
+    ],
+    "scheduled_pay_date": [
+      "date"
+    ],
+    "source_id": [
+      "copy",
+      "derive"
+    ],
+    "status_raw": [
+      "copy"
+    ]
+  }
+}

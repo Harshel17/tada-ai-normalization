@@ -1,0 +1,28 @@
+[
+  {
+    "id": 9001,
+    "accountNumber": "7766554433",
+    "accountType": "Checking",
+    "amount": null,
+    "bankName": "Sample Bank, N.A.",
+    "description": null,
+    "frequency": "Every Pay",
+    "percent": null,
+    "routingNumber": "021000021",
+    "sequenceNumber": 1,
+    "status": "Active"
+  },
+  {
+    "id": 9002,
+    "accountNumber": "99112233",
+    "accountType": "Savings",
+    "amount": 50,
+    "bankName": "Sample Credit Union",
+    "description": "Split",
+    "frequency": "Every Pay",
+    "percent": null,
+    "routingNumber": "011000015",
+    "sequenceNumber": 2,
+    "status": "Active"
+  }
+]

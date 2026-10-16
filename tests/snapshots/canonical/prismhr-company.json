@@ -1,0 +1,66 @@
+{
+  "entity_type": "company",
+  "issues": [],
+  "provider": "prismhr",
+  "records": [
+    {
+      "address": {
+        "city": "Austin",
+        "country": null,
+        "county": null,
+        "house_number": null,
+        "line1": "100 Industrial Way",
+        "line2": null,
+        "line3": null,
+        "postal_code": "78701-4321",
+        "state": "TX"
+      },
+      "company_id": "ACME",
+      "display_name": "Acme Widgets",
+      "email": "hr@acme.example.test",
+      "extras": {
+        "annualHours": "2080",
+        "cafeteriaPlan": "SEC125",
+        "observedHoliday": [
+          {
+            "description": "New Year",
+            "holidayDate": [
+              "2025-01-01"
+            ],
+            "name": "NY"
+          }
+        ],
+        "payCode": [
+          {
+            "payCodeId": "REG",
+            "printOnPayStub": "1"
+          }
+        ]
+      },
+      "federal_ein": "12-3456789",
+      "first_payroll_date": "2020-02-07",
+      "legal_entities": [],
+      "legal_name": "Acme Widgets, Inc.",
+      "naics_code": "332999",
+      "parent_company_id": null,
+      "parent_company_name": null,
+      "phone": "5125550100",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /clientMaster/v1/getClientMaster",
+        "source_path": "$.clientMaster"
+      },
+      "provider": "prismhr",
+      "record_type": "company",
+      "service_type_raw": "PEO",
+      "sic_code": "3499",
+      "source_id": "ACME",
+      "status": "active",
+      "status_date": "2020-01-15",
+      "status_raw": "ACT",
+      "tenant_id": "snapshot",
+      "website": "https://acme.example.test"
+    }
+  ]
+}

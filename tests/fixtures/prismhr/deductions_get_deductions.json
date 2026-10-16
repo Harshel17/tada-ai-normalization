@@ -1,0 +1,47 @@
+{
+  "errorCode": "",
+  "errorMessage": "",
+  "employeeDeductions": {
+    "deduction": [
+      {
+        "deductionCode": "401K",
+        "deductionType": "K",
+        "deductionMethod": "P",
+        "description": "401(k) pre-tax",
+        "usePercent": true,
+        "amount": 6.00,
+        "period": "ALL",
+        "benefitPlanId": "PLAN401",
+        "limit": 500.00,
+        "maximum": 23000.00,
+        "basis": "A",
+        "trackArrears": false,
+        "startDate": "2023-01-01",
+        "stopDate": "",
+        "matchMethod": "P",
+        "matchAmount": 3.00,
+        "mandatory": false,
+        "detailsChecksum": "chk-ded-1"
+      },
+      {
+        "deductionCode": "GARN",
+        "deductionType": "G",
+        "description": "Child support garnishment",
+        "usePercent": false,
+        "amount": 150.25,
+        "loanOrGarnishId": "CS-77",
+        "cutbackPayeeCode": "COURT1",
+        "trackArrears": true,
+        "mandatory": true,
+        "startDate": "2024-01-15",
+        "glOverrideAcct": "2100"
+      },
+      {
+        "deductionCode": "GYM",
+        "description": "Gym",
+        "usePercent": false,
+        "amount": 0
+      }
+    ]
+  }
+}

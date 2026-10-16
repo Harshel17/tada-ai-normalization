@@ -1,0 +1,61 @@
+{
+  "entity_type": "company",
+  "issues": [
+    {
+      "code": "company_master_unavailable",
+      "message": "UKG Ready exposes only the company's EINs, no name or status",
+      "path": null,
+      "severity": "info",
+      "source_id": "CID1"
+    }
+  ],
+  "provider": "ukg-ready",
+  "records": [
+    {
+      "address": null,
+      "company_id": "CID1",
+      "display_name": null,
+      "email": null,
+      "extras": {},
+      "federal_ein": null,
+      "first_payroll_date": null,
+      "legal_entities": [
+        {
+          "country": "USA",
+          "currency_code": "USD",
+          "entity_id": "12",
+          "name": "Northwind Services Inc",
+          "tax_id": "55-1234567"
+        },
+        {
+          "country": "CAN",
+          "currency_code": "CAD",
+          "entity_id": "13",
+          "name": "Northwind Canada Ltd",
+          "tax_id": "55-7654321"
+        }
+      ],
+      "legal_name": null,
+      "naics_code": null,
+      "parent_company_id": null,
+      "parent_company_name": null,
+      "phone": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /v2/companies/{cid}/lookup/eins",
+        "source_path": null
+      },
+      "provider": "ukg-ready",
+      "record_type": "company",
+      "service_type_raw": null,
+      "sic_code": null,
+      "source_id": "CID1",
+      "status": null,
+      "status_date": null,
+      "status_raw": null,
+      "tenant_id": "snapshot",
+      "website": null
+    }
+  ]
+}

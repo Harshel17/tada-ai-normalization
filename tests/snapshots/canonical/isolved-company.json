@@ -1,0 +1,60 @@
+{
+  "entity_type": "company",
+  "issues": [],
+  "provider": "isolved",
+  "records": [
+    {
+      "address": {
+        "city": "Portland",
+        "country": null,
+        "county": null,
+        "house_number": null,
+        "line1": "9 Harbor Rd",
+        "line2": null,
+        "line3": null,
+        "postal_code": "04101",
+        "state": "ME"
+      },
+      "company_id": "4501",
+      "display_name": "Bluebird Cafe",
+      "email": null,
+      "extras": {
+        "client": {
+          "clientCode": "BLUE"
+        },
+        "forceDirectDepositPrenote": true,
+        "legalCode": "BLUE-01",
+        "payGroups": [
+          {
+            "id": 11,
+            "name": "Weekly"
+          }
+        ]
+      },
+      "federal_ein": "98-7654321",
+      "first_payroll_date": null,
+      "legal_entities": [],
+      "legal_name": "Bluebird Foods LLC",
+      "naics_code": "722511",
+      "parent_company_id": "77",
+      "parent_company_name": "Bluebird Holdings",
+      "phone": "2075550123",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /api/clients/{clientId}/legals",
+        "source_path": "$[0]"
+      },
+      "provider": "isolved",
+      "record_type": "company",
+      "service_type_raw": null,
+      "sic_code": null,
+      "source_id": "4501",
+      "status": null,
+      "status_date": null,
+      "status_raw": "Active",
+      "tenant_id": "snapshot",
+      "website": null
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "nextPageUrl": null,
+  "previousPageUrl": null,
+  "results": [
+    {
+      "id": 700000,
+      "employeeId": 90001,
+      "employeeNumber": "0042",
+      "employeeName": "Okafor, Alex",
+      "employeeSSN": "XXX-XX-4321",
+      "employeeAddress1": "5 Pine St",
+      "employeeCity": "Portland",
+      "employeeState": "ME",
+      "employeeZipCode": "04101",
+      "employeeFederalFilingStatus": "Single",
+      "employeeFederalExemptions": 0,
+      "checkNumber": 10442,
+      "checkDate": "2025-02-07T00:00:00",
+      "periodBeginDate": "2025-01-27T00:00:00",
+      "periodEndDate": "2025-02-02T00:00:00",
+      "checkTypeDescription": "Regular",
+      "payrollRunNumber": 1,
+      "payrollRunType": "Regular",
+      "voucherNumber": "880000",
+      "grossPay": 770.0,
+      "grossWages": 770.0,
+      "netPay": 604.15,
+      "checkAmount": 604.15,
+      "directDepositAmount": 604.15,
+      "earnings": [
+        {
+          "id": 1,
+          "sequence": 1,
+          "itemCode": "REG",
+          "itemDescription": "Regular",
+          "checkHours": 36.0,
+          "checkUnits": 0,
+          "checkDollars": 693.0,
+          "currentDollars": 693.0,
+          "ytdDollars": 3465.0,
+          "ytdHours": 180.0,
+          "isMemoEarning": false,
+          "labors": [
+            {
+              "laborCode": "CC-10",
+              "hours": 36.0,
+              "dollars": 693.0,
+              "rate": 19.25
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sequence": 2,
+          "itemCode": "TIPS",
+          "itemDescription": "Tips",
+          "checkHours": 0,
+          "checkDollars": 77.0,
+          "currentDollars": 77.0,
+          "ytdDollars": 400.0,
+          "isMemoEarning": false
+        },
+        {
+          "id": 3,
+          "sequence": 3,
+          "itemCode": "MEMO1",
+          "itemDescription": "Memo meals",
+          "checkDollars": 12.0,
+          "isMemoEarning": true
+        }
+      ],
+      "taxes": [
+        {
+          "id": 10,
+          "itemCode": "FIT",
+          "itemDescription": "Federal Income Tax",
+          "checkDollars": 61.2,
+          "checkTaxableWages": 735.0,
+          "ytdDollars": 306.0,
+          "isEmployeeTax": true
+        },
+        {
+          "id": 11,
+          "itemCode": "SS",
+          "itemDescription": "Social Security",
+          "checkDollars": 47.74,
+          "checkTaxableWages": 770.0,
+          "ytdDollars": 238.7,
+          "isEmployeeTax": true
+        },
+        {
+          "id": 12,
+          "itemCode": "FUTA",
+          "itemDescription": "Federal Unemployment",
+          "checkDollars": 0,
+          "checkTaxableWages": 0,
+          "isEmployeeTax": false
+        },
+        {
+          "id": 13,
+          "itemCode": "XYZ",
+          "itemDescription": "Unknown who pays",
+          "checkDollars": 1.0
+        }
+      ],
+      "deductions": [
+        {
+          "id": 20,
+          "sequence": 1,
+          "itemCode": "401K",
+          "itemDescription": "401(k)",
+          "checkDollars": 38.5,
+          "ytdDollars": 192.5
+        }
+      ],
+      "garnishments": [
+        {
+          "id": 21,
+          "sequence": 1,
+          "itemCode": "GARN1",
+          "itemDescription": "Wage garnishment",
+          "checkDollars": 18.41
+        }
+      ],
+      "benefits": [
+        {
+          "benefitTitle": "401K",
+          "benefitDescription": "Retirement",
+          "checkEmployeeDeduction": 38.5,
+          "checkEmployerContribution": 23.1,
+          "ytdEmployerContribution": 115.5
+        }
+      ],
+      "directDeposits": [
+        {
+          "id": 30,
+          "account": "5550001111",
+          "depositAmount": 100.0,
+          "itemDescription": "Savings sweep"
+        },
+        {
+          "id": 31,
+          "account": "5550003333",
+          "depositAmount": 504.15,
+          "itemDescription": "Net pay"
+        }
+      ],
+      "accruals": [
+        {
+          "id": 1,
+          "accrualName": "PTO",
+          "amountAccrued": 1.5,
+          "amountTaken": 0,
+          "endingBalance": 21.5
+        }
+      ],
+      "legalCompanyName": "Bluebird Foods LLC",
+      "checkSequence": 1,
+      "employeeAddress2": null,
+      "employeeFederalAddlAmountOrPercent": 0,
+      "employeeOrganizations": [],
+      "employeeStateAddlAmountOrPercent": 0,
+      "employeeStateExemptions": 1,
+      "employeeStateFilingStatus": "S",
+      "isRemoteWorker": false,
+      "links": [],
+      "reissueCheckDate": null,
+      "reissueCheckNumber": null,
+      "taxCategories": [],
+      "vertexResidentGeoCode": "440000000",
+      "vertexSchoolDistrictCode": "0",
+      "vertexWorkGeoCode": "440000000"
+    },
+    {
+      "id": 700001,
+      "employeeId": 90001,
+      "employeeNumber": "0042",
+      "employeeName": "Okafor, Alex",
+      "employeeSSN": "XXX-XX-4321",
+      "employeeAddress1": "5 Pine St",
+      "employeeCity": "Portland",
+      "employeeState": "ME",
+      "employeeZipCode": "04101",
+      "employeeFederalFilingStatus": "Single",
+      "employeeFederalExemptions": 0,
+      "checkNumber": 10442,
+      "checkDate": "2025-02-07T00:00:00",
+      "periodBeginDate": "2025-01-27T00:00:00",
+      "periodEndDate": "2025-02-02T00:00:00",
+      "checkTypeDescription": "Regular",
+      "payrollRunNumber": 1,
+      "payrollRunType": "Regular",
+      "voucherNumber": "880001",
+      "grossPay": 770.0,
+      "grossWages": 770.0,
+      "netPay": 604.15,
+      "checkAmount": 604.15,
+      "directDepositAmount": 604.15,
+      "earnings": [
+        {
+          "id": 1,
+          "sequence": 1,
+          "itemCode": "REG",
+          "itemDescription": "Regular",
+          "checkHours": 36.0,
+          "checkUnits": 0,
+          "checkDollars": 693.0,
+          "currentDollars": 693.0,
+          "ytdDollars": 3465.0,
+          "ytdHours": 180.0,
+          "isMemoEarning": false,
+          "labors": [
+            {
+              "laborCode": "CC-10",
+              "hours": 36.0,
+              "dollars": 693.0,
+              "rate": 19.25
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "sequence": 2,
+          "itemCode": "TIPS",
+          "itemDescription": "Tips",
+          "checkHours": 0,
+          "checkDollars": 77.0,
+          "currentDollars": 77.0,
+          "ytdDollars": 400.0,
+          "isMemoEarning": false
+        },
+        {
+          "id": 3,
+          "sequence": 3,
+          "itemCode": "MEMO1",
+          "itemDescription": "Memo meals",
+          "checkDollars": 12.0,
+          "isMemoEarning": true
+        }
+      ],
+      "taxes": [
+        {
+          "id": 10,
+          "itemCode": "FIT",
+          "itemDescription": "Federal Income Tax",
+          "checkDollars": 61.2,
+          "checkTaxableWages": 735.0,
+          "ytdDollars": 306.0,
+          "isEmployeeTax": true
+        },
+        {
+          "id": 11,
+          "itemCode": "SS",
+          "itemDescription": "Social Security",
+          "checkDollars": 47.74,
+          "checkTaxableWages": 770.0,
+          "ytdDollars": 238.7,
+          "isEmployeeTax": true
+        },
+        {
+          "id": 12,
+          "itemCode": "FUTA",
+          "itemDescription": "Federal Unemployment",
+          "checkDollars": 0,
+          "checkTaxableWages": 0,
+          "isEmployeeTax": false
+        },
+        {
+          "id": 13,
+          "itemCode": "XYZ",
+          "itemDescription": "Unknown who pays",
+          "checkDollars": 1.0
+        }
+      ],
+      "deductions": [
+        {
+          "id": 20,
+          "sequence": 1,
+          "itemCode": "401K",
+          "itemDescription": "401(k)",
+          "checkDollars": 38.5,
+          "ytdDollars": 192.5
+        }
+      ],
+      "garnishments": [
+        {
+          "id": 21,
+          "sequence": 1,
+          "itemCode": "GARN1",
+          "itemDescription": "Wage garnishment",
+          "checkDollars": 18.41
+        }
+      ],
+      "benefits": [
+        {
+          "benefitTitle": "401K",
+          "benefitDescription": "Retirement",
+          "checkEmployeeDeduction": 38.5,
+          "checkEmployerContribution": 23.1,
+          "ytdEmployerContribution": 115.5
+        }
+      ],
+      "directDeposits": [
+        {
+          "id": 30,
+          "account": "5550001111",
+          "depositAmount": 100.0,
+          "itemDescription": "Savings sweep"
+        },
+        {
+          "id": 31,
+          "account": "5550003333",
+          "depositAmount": 504.15,
+          "itemDescription": "Net pay"
+        }
+      ],
+      "accruals": [
+        {
+          "id": 1,
+          "accrualName": "PTO",
+          "amountAccrued": 1.5,
+          "amountTaken": 0,
+          "endingBalance": 21.5
+        }
+      ],
+      "legalCompanyName": "Bluebird Foods LLC",
+      "checkSequence": 1,
+      "employeeAddress2": null,
+      "employeeFederalAddlAmountOrPercent": 0,
+      "employeeOrganizations": [],
+      "employeeStateAddlAmountOrPercent": 0,
+      "employeeStateExemptions": 1,
+      "employeeStateFilingStatus": "S",
+      "isRemoteWorker": false,
+      "links": [],
+      "reissueCheckDate": null,
+      "reissueCheckNumber": null,
+      "taxCategories": [],
+      "vertexResidentGeoCode": "440000000",
+      "vertexSchoolDistrictCode": "0",
+      "vertexWorkGeoCode": "440000000"
+    }
+  ],
+  "totalItems": 2,
+  "totalPages": 1.0
+}

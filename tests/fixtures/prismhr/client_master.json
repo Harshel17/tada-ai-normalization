@@ -1,0 +1,30 @@
+{
+  "errorCode": "",
+  "errorMessage": "",
+  "clientMaster": {
+    "id": "ACME",
+    "clientName": "Acme Widgets",
+    "legalName": "Acme Widgets, Inc.",
+    "serviceType": "PEO",
+    "status": "ACT",
+    "statusClass": "A",
+    "statusDate": "2020-01-15",
+    "addressLine1": "100 Industrial Way",
+    "addressLine2": "",
+    "city": "Austin",
+    "stateCode": "TX",
+    "zipCode": "78701",
+    "zipSuffix": "4321",
+    "mainPhone": "5125550100",
+    "emailAddress": "hr@acme.example.test",
+    "websiteUrl": "https://acme.example.test",
+    "federalIdNumber": "12-3456789",
+    "naicsCode": "332999",
+    "sicCode": "3499",
+    "payrollDate": "2020-02-07",
+    "cafeteriaPlan": "SEC125",
+    "annualHours": "2080",
+    "payCode": [{ "payCodeId": "REG", "printOnPayStub": "1" }],
+    "observedHoliday": [{ "name": "NY", "description": "New Year", "holidayDate": ["2025-01-01"] }]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "entity_type": "payroll",
+  "issues": [
+    {
+      "code": "runs_derived",
+      "message": "PayrollRun records were derived from voucher batchId values",
+      "path": null,
+      "severity": "info",
+      "source_id": "B-2025-02"
+    }
+  ],
+  "provider": "prismhr",
+  "records": [
+    {
+      "company_id": "ACME",
+      "direct_deposit_date": null,
+      "ein_id": null,
+      "extras": {},
+      "name": null,
+      "pay_date": "2025-01-17",
+      "period_end": "2025-01-17",
+      "period_start": "2025-01-04",
+      "provenance": {
+        "derived_fields": [
+          "pay_date",
+          "period_start",
+          "period_end"
+        ],
+        "redacted_paths": [],
+        "source_endpoint": "GET /payroll/v1/getPayrollVouchers",
+        "source_path": null
+      },
+      "provider": "prismhr",
+      "record_type": "payroll_run",
+      "run_number": null,
+      "run_type_raw": null,
+      "scheduled_pay_date": null,
+      "source_id": "B-2025-02",
+      "status_raw": null,
+      "tenant_id": "snapshot"
+    },
+    {
+      "benefits": [
+        {
+          "accumulators": {},
+          "code": null,
+          "description": null,
+          "employee_contribution": "98.50",
+          "employee_deducted_amount": "98.50",
+          "employer_contribution": null,
+          "extras": {
+            "coveragePeriod": "2025-01",
+            "premiumCost": "520.00"
+          },
+          "line_no": 1,
+          "plan_id": "MEDPPO",
+          "premium_amount": "520.00",
+          "source_kind": "benefit"
+        },
+        {
+          "accumulators": {},
+          "code": null,
+          "description": "Medical PPO employer share",
+          "employee_contribution": null,
+          "employee_deducted_amount": null,
+          "employer_contribution": "421.50",
+          "extras": {},
+          "line_no": 2,
+          "plan_id": "MEDPPO",
+          "premium_amount": null,
+          "source_kind": "employerContributions"
+        },
+        {
+          "accumulators": {},
+          "code": "electiveContributionsPreTax",
+          "description": null,
+          "employee_contribution": "230.77",
+          "employee_deducted_amount": null,
+          "employer_contribution": null,
+          "extras": {},
+          "line_no": 3,
+          "plan_id": "PLAN401",
+          "premium_amount": null,
+          "source_kind": "retirement"
+        },
+        {
+          "accumulators": {},
+          "code": "rothContributionsPostTax",
+          "description": null,
+          "employee_contribution": "0",
+          "employee_deducted_amount": null,
+          "employer_contribution": null,
+          "extras": {},
+          "line_no": 4,
+          "plan_id": "PLAN401",
+          "premium_amount": null,
+          "source_kind": "retirement"
+        },
+        {
+          "accumulators": {},
+          "code": "employerMatchingContributions",
+          "description": null,
+          "employee_contribution": null,
+          "employee_deducted_amount": null,
+          "employer_contribution": "115.38",
+          "extras": {},
+          "line_no": 5,
+          "plan_id": "PLAN401",
+          "premium_amount": null,
+          "source_kind": "retirement"
+        }
+      ],
+      "check_amount": "2410.37",
+      "check_number": "880001",
+      "company_id": "ACME",
+      "currency": null,
+      "deductions": [
+        {
+          "accumulators": {},
+          "amount": "230.77",
+          "category_raw": "K",
+          "code": "401K",
+          "description": "401(k) pre-tax",
+          "employer_amount": null,
+          "extras": {},
+          "line_no": 1,
+          "plan_id": "PLAN401",
+          "source_kind": "deduction"
+        },
+        {
+          "accumulators": {},
+          "amount": "98.50",
+          "category_raw": "C",
+          "code": "MED125",
+          "description": "Medical",
+          "employer_amount": null,
+          "extras": {},
+          "line_no": 2,
+          "plan_id": "MEDPPO",
+          "source_kind": "deduction"
+        },
+        {
+          "accumulators": {},
+          "amount": "0",
+          "category_raw": null,
+          "code": "PARK",
+          "description": "Parking",
+          "employer_amount": null,
+          "extras": {
+            "otherDeductOneTimeSwitch": "N"
+          },
+          "line_no": 3,
+          "plan_id": null,
+          "source_kind": "otherDeduction"
+        }
+      ],
+      "earnings": [
+        {
+          "accumulators": {},
+          "amount": "3846.15",
+          "code": "REG",
+          "description": "Regular",
+          "extras": {
+            "department": "PLAT",
+            "glCode": "6000",
+            "payClass": "R"
+          },
+          "hours": "80.00",
+          "is_memo": null,
+          "line_no": 1,
+          "rate": "48.0769",
+          "source_kind": "earning",
+          "units": "80.00",
+          "work_date_from": "2025-01-17",
+          "work_date_to": null
+        }
+      ],
+      "employee_id": "E1001",
+      "extras": {
+        "bankAccount": "OPS-1",
+        "dateProcessed": "2025-01-14",
+        "earnAmount": "3846.15",
+        "fitTaxableAmount": "3503.84",
+        "glAcctDistribution": {
+          "glTotalCredit": "3846.15",
+          "glTotalDebit": "3846.15"
+        },
+        "otherEarnAmount": 0,
+        "payPeriod": "2025-02",
+        "payStubType": "Electronic",
+        "retirement": {
+          "baseEarnings": "3846.15",
+          "planYearPeriod": "2025"
+        },
+        "wcInformation": {
+          "wcPolicy": "WC-1"
+        }
+      },
+      "gross_pay": "3846.15",
+      "net_pay": "2410.37",
+      "pay_date": "2025-01-17",
+      "pay_group_raw": "BIWK",
+      "paycheck_type": "regular",
+      "paycheck_type_raw": "R",
+      "payments": [
+        {
+          "account_masked": "****6789",
+          "amount": "500.00",
+          "description": null,
+          "line_no": 1,
+          "routing_number": "111000025",
+          "status_raw": "S"
+        },
+        {
+          "account_masked": "****5544",
+          "amount": "1910.37",
+          "description": null,
+          "line_no": 2,
+          "routing_number": "122000247",
+          "status_raw": "S"
+        }
+      ],
+      "period_end": "2025-01-17",
+      "period_start": "2025-01-04",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.payrollVouchers[0].directDeposit[0].accountNum",
+          "$.payrollVouchers[0].directDeposit[1].accountNum"
+        ],
+        "source_endpoint": "GET /payroll/v1/getPayrollVouchers",
+        "source_path": "$.payrollVouchers[0]"
+      },
+      "provider": "prismhr",
+      "record_type": "paycheck",
+      "run_id": "B-2025-02",
+      "source_id": "V-5001",
+      "status_raw": "P",
+      "taxes": [
+        {
+          "accumulators": {},
+          "amount": "512.30",
+          "code": "FIT",
+          "description": "Federal income tax",
+          "extras": {
+            "empOverLimitAmount": 0
+          },
+          "liability": "employee",
+          "line_no": 1,
+          "rate": null,
+          "source_kind": "employeeTax",
+          "taxable_wage": "3503.84"
+        },
+        {
+          "accumulators": {},
+          "amount": "238.46",
+          "code": "FICA",
+          "description": "Social security",
+          "extras": {},
+          "liability": "employee",
+          "line_no": 2,
+          "rate": null,
+          "source_kind": "employeeTax",
+          "taxable_wage": "3846.15"
+        },
+        {
+          "accumulators": {},
+          "amount": "55.77",
+          "code": "MED",
+          "description": "Medicare",
+          "extras": {},
+          "liability": "employee",
+          "line_no": 3,
+          "rate": null,
+          "source_kind": "employeeTax",
+          "taxable_wage": "3846.15"
+        },
+        {
+          "accumulators": {},
+          "amount": "238.46",
+          "code": "FICA",
+          "description": "Employer social security",
+          "extras": {
+            "comTaxEntity": "FED",
+            "comTaxType": "G"
+          },
+          "liability": "employer",
+          "line_no": 4,
+          "rate": "0.062",
+          "source_kind": "companyTax",
+          "taxable_wage": "3846.15"
+        }
+      ],
+      "tenant_id": "snapshot",
+      "void_date": null
+    },
+    {
+      "benefits": [],
+      "check_amount": "0",
+      "check_number": null,
+      "company_id": "ACME",
+      "currency": null,
+      "deductions": [],
+      "earnings": [
+        {
+          "accumulators": {},
+          "amount": "450.00",
+          "code": "REG",
+          "description": "Regular",
+          "extras": {},
+          "hours": "20",
+          "is_memo": null,
+          "line_no": 1,
+          "rate": "22.50",
+          "source_kind": "earning",
+          "units": "20",
+          "work_date_from": null,
+          "work_date_to": null
+        },
+        {
+          "accumulators": {},
+          "amount": "50.00",
+          "code": "BONUS",
+          "description": "Spot bonus",
+          "extras": {},
+          "hours": null,
+          "is_memo": null,
+          "line_no": 2,
+          "rate": null,
+          "source_kind": "otherEarningsDetail",
+          "units": null,
+          "work_date_from": null,
+          "work_date_to": null
+        }
+      ],
+      "employee_id": "E1002",
+      "extras": {
+        "earnAmount": "450.00",
+        "otherEarnAmount": "50.00"
+      },
+      "gross_pay": "500.00",
+      "net_pay": "0",
+      "pay_date": "2025-01-17",
+      "pay_group_raw": null,
+      "paycheck_type": "supplemental",
+      "paycheck_type_raw": "S",
+      "payments": [],
+      "period_end": "2025-01-17",
+      "period_start": "2025-01-04",
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [],
+        "source_endpoint": "GET /payroll/v1/getPayrollVouchers",
+        "source_path": "$.payrollVouchers[1]"
+      },
+      "provider": "prismhr",
+      "record_type": "paycheck",
+      "run_id": "B-2025-02",
+      "source_id": "V-5002",
+      "status_raw": "P",
+      "taxes": [],
+      "tenant_id": "snapshot",
+      "void_date": null
+    }
+  ]
+}

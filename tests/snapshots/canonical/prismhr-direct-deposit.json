@@ -1,0 +1,139 @@
+{
+  "entity_type": "direct_deposit",
+  "issues": [],
+  "provider": "prismhr",
+  "records": [
+    {
+      "account_number_masked": "****6789",
+      "account_type": "checking",
+      "account_type_raw": "C",
+      "active": true,
+      "allocation_raw": "F",
+      "allocation_type": "fixed_amount",
+      "amount": "500.00",
+      "bank_name": "First Test Bank",
+      "cap_amount": null,
+      "company_id": "ACME",
+      "currency": null,
+      "effective_from": null,
+      "effective_to": null,
+      "employee_id": "E1001",
+      "extras": {
+        "directDeposit.achStatus": "A"
+      },
+      "frequency_raw": null,
+      "instruction_type_raw": null,
+      "name": null,
+      "percentage": null,
+      "percentage_basis_raw": null,
+      "prenote_status_raw": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.employee[0].directDeposit.achVoucher[0].accountNum"
+        ],
+        "source_endpoint": "GET /employee/v1/getEmployee",
+        "source_path": "$.employee[0].directDeposit.achVoucher[0]"
+      },
+      "provider": "prismhr",
+      "record_type": "direct_deposit",
+      "routing_number": "111000025",
+      "sequence": null,
+      "skip_if_insufficient": false,
+      "source_id": "111000025-6789-C-F-",
+      "source_position": 0,
+      "status": "active",
+      "status_raw": "D",
+      "tenant_id": "snapshot",
+      "voucher_types_raw": "RSV"
+    },
+    {
+      "account_number_masked": "****5544",
+      "account_type": "savings",
+      "account_type_raw": "S",
+      "active": true,
+      "allocation_raw": "P",
+      "allocation_type": "percentage",
+      "amount": null,
+      "bank_name": "Second Test Bank",
+      "cap_amount": "1000.00",
+      "company_id": "ACME",
+      "currency": null,
+      "effective_from": null,
+      "effective_to": null,
+      "employee_id": "E1001",
+      "extras": {
+        "directDeposit.achStatus": "A"
+      },
+      "frequency_raw": null,
+      "instruction_type_raw": null,
+      "name": null,
+      "percentage": "25.5",
+      "percentage_basis_raw": null,
+      "prenote_status_raw": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.employee[0].directDeposit.achVoucher[1].accountNum"
+        ],
+        "source_endpoint": "GET /employee/v1/getEmployee",
+        "source_path": "$.employee[0].directDeposit.achVoucher[1]"
+      },
+      "provider": "prismhr",
+      "record_type": "direct_deposit",
+      "routing_number": "122000247",
+      "sequence": null,
+      "skip_if_insufficient": null,
+      "source_id": "122000247-5544-S-P-",
+      "source_position": 1,
+      "status": "active",
+      "status_raw": "D",
+      "tenant_id": "snapshot",
+      "voucher_types_raw": "RSV"
+    },
+    {
+      "account_number_masked": "****5544",
+      "account_type": "savings",
+      "account_type_raw": "S",
+      "active": true,
+      "allocation_raw": "B",
+      "allocation_type": "remaining_balance",
+      "amount": null,
+      "bank_name": "Second Test Bank",
+      "cap_amount": null,
+      "company_id": "ACME",
+      "currency": null,
+      "effective_from": null,
+      "effective_to": null,
+      "employee_id": "E1001",
+      "extras": {
+        "directDeposit.achStatus": "A"
+      },
+      "frequency_raw": null,
+      "instruction_type_raw": null,
+      "name": null,
+      "percentage": null,
+      "percentage_basis_raw": null,
+      "prenote_status_raw": null,
+      "provenance": {
+        "derived_fields": [],
+        "redacted_paths": [
+          "$.employee[0].directDeposit.achVoucher[2].accountNum"
+        ],
+        "source_endpoint": "GET /employee/v1/getEmployee",
+        "source_path": "$.employee[0].directDeposit.achVoucher[2]"
+      },
+      "provider": "prismhr",
+      "record_type": "direct_deposit",
+      "routing_number": "122000247",
+      "sequence": null,
+      "skip_if_insufficient": null,
+      "source_id": "122000247-5544-S-B-R",
+      "source_position": 2,
+      "status": "active",
+      "status_raw": "D",
+      "tenant_id": "snapshot",
+      "voucher_types_raw": "R"
+    }
+  ]
+}
