@@ -16,7 +16,7 @@
   "distribution": {
     "status": "verified",
     "basis": "Apache-2.0 explicitly declared in the source artifact at /info/license; license copy and modification notices supplied.",
-    "evidence_reference": "README.md#distribution-basis",
+    "evidence_reference": "openapi/prismhr-2025.09.openapi.json#/info/license",
     "license": "Apache-2.0",
     "license_file": "LICENSE.apache-2.0.txt",
     "reviewed_by": "Automated artifact/license evidence review for the organizer-requested private repository; not a separate vendor approval or legal certification.",

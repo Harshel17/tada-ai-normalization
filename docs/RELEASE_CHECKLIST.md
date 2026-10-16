@@ -8,7 +8,7 @@ historical test counts; those were folded into the sections below and into ENGIN
 **Recommendation: GO**, with one decision for the author (repository visibility, section 9) and one task (creating the repository, section 10).
 No blocking defect is known; the limitations in section 8 are documented and acceptable.
 
-## 1. Mandatory requirements of docs/ASSIGNMENT.md
+## 1. Mandatory requirements of the assignment
 
 | # | Requirement | Evidence | Status |
 |---|---|---|---|
@@ -86,11 +86,11 @@ has any. **Unresolved by design:** isolved paycheck-to-run linking (documented e
 
 | Check | Result |
 |---|---|
-| Files / size | 636 files, 17.3 MB (394 in `contracts/`, whose largest file is 2.9 MB); checked by staging a copy in a scratch repository |
+| Files / size | 634 files, 17.3 MB (394 in `contracts/`, whose largest file is 2.9 MB); checked by staging a copy in a scratch repository |
 | Ignored and present locally | `.env`, `.venv`, `frontend/node_modules`, `dist`, `playwright-report`, `test-results`, caches |
 | Tracked on purpose | `.env.example` (no salt value), `uv.lock`, `frontend/package-lock.json`, `tests/snapshots/` |
 | Junk (screenshots, databases, logs, `.DS_Store`, zip/bak) | none |
-| Contracts | the organizer's reference pack, **not byte-identical to the vendors' originals** (isolved/UKG copies modified by the organizer: authentication examples redacted, notices added); PrismHR licence and NOTICE files kept; `docs/ASSIGNMENT.md` is the original assignment text |
+| Contracts | the organizer's reference pack, **not byte-identical to the vendors' originals** (isolved/UKG copies modified by the organizer: authentication examples redacted, notices added); PrismHR licence and NOTICE files kept |
 | Sensitive-looking fixture values | SSN-shaped values are `123-45-6789`, `987-65-4321` and the invalid 9xx range (`900-44-3333`, `912-34-6789`, `907-31-4417`, ...), never an issued-looking number; fake account numbers, all synthetic; routing numbers are public bank identifiers |
 
 ## 8. Known limitations (documented, not blockers)
@@ -120,13 +120,13 @@ cd /Users/harshel/Desktop/TadaNormalize
 
 # 1. initialise, then PREVIEW what would be staged (nothing is added yet)
 git init -b main
-git add -A -n | wc -l                                                                                   # 636
+git add -A -n | wc -l                                                                                   # 634
 git add -A -n | grep -E '(^|/)(\.env$|\.venv|node_modules|dist/|__pycache__|\.pytest_cache|\.ruff_cache|playwright-report|test-results|\.live)'   # nothing
 git add -A -n | grep -c '\.env\.example'                                                               # 1
 
 # 2. stage and re-verify
 git add -A
-git ls-files | wc -l                                                                                    # 636
+git ls-files | wc -l                                                                                    # 634
 git ls-files | grep -iE '\.(pem|key|db|sqlite|log|har|zip)$|(^|/)\.env$'                                  # nothing
 git status --short --ignored | grep '^!!'                                                               # only ignored local files
 

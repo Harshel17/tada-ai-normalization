@@ -1,4 +1,4 @@
-# Independent audit against docs/ASSIGNMENT.md
+# Independent audit against the assignment
 
 Method: each requirement in the assignment was traced to code and tests, then three end-to-end runs
 (one per provider: real HTTP → engine → PostgreSQL) were inspected for data loss, wrong mappings,

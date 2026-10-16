@@ -55916,7 +55916,7 @@
     },
     "distribution": {
       "status": "user_approved_private_upload",
-      "evidence_reference": "../../docs/REFERENCE_AUDIT.md#private-upload-authorization",
+      "evidence_reference": "../SOURCE_MANIFEST.json#/distribution/basis",
       "basis": "Organizer explicitly instructed: \"Yeah push those as well\" on 2026-10-09, after the permission gaps were disclosed. This authorizes this private upload; no provider redistribution license is represented.",
       "provider_redistribution_permission_verified": false,
       "candidate_sharing_approved": false,

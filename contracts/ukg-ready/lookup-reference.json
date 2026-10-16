@@ -12,7 +12,7 @@
   },
   "distribution": {
     "status": "user_approved_private_upload",
-    "evidence_reference": "../../docs/REFERENCE_AUDIT.md#private-upload-authorization",
+    "evidence_reference": "SOURCE_MANIFEST.json#/distribution/basis",
     "basis": "Organizer explicitly instructed: \"Yeah push those as well\" on 2026-10-09, after the permission gaps were disclosed. This authorizes this private upload; no provider redistribution license is represented.",
     "provider_redistribution_permission_verified": false,
     "candidate_sharing_approved": false,
@@ -725,7 +725,7 @@
     "source_sha256": "3bff9aa28d6fbcf63a55ba88216178e5fcd88c5f313146e63827daf3e6b56559",
     "reviewed_on": "2026-10-09",
     "contents_copied": true,
-    "checksum_kind": "HTML tree index; see docs/REFERENCE_AUDIT.md for algorithm"
+    "checksum_kind": "HTML tree index; the algorithm was described in a reference-audit note that is not part of this submission"
   },
   "reference_artifact": {
     "relative_path": "reference-schemas.json",

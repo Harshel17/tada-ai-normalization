@@ -2,7 +2,7 @@
 
 Normalizes **PrismHR**, **isolved** and **UKG Ready** payloads (companies, employees, direct deposits,
 deduction setup, payroll runs and paychecks) into one canonical model, validates the result, and can
-store it in PostgreSQL. The original assignment text is in [docs/ASSIGNMENT.md](docs/ASSIGNMENT.md).
+store it in PostgreSQL.
 
 * **Start here: [DECISIONS.md](DECISIONS.md)**, the short explanation of my decisions, assumptions and limitations (the assignment's decisions file).
 * More detail, if you want it: [engineering notes](docs/ENGINEERING_NOTES.md) (full reasoning and live-validation findings)
@@ -280,7 +280,7 @@ scripts/           generate_fixtures.py (seeded fixtures from the contracts)
                    live_probe.py  (optional, read-only check against the Tada demo providers)
 contracts/         provider reference pack supplied with the assignment. NOT byte-identical to the vendors' originals: the
                    isolved and UKG Ready copies were modified by the organizer (authentication examples redacted, notices added;
-                   see each NOTICE.md and docs/REFERENCE_AUDIT.md). Distribution is private-only, see "Repository visibility".
+                   see each NOTICE.md and SOURCE_MANIFEST.json). Distribution is private-only, see "Repository visibility".
 ```
 
 ## Optional: local testing console (frontend)

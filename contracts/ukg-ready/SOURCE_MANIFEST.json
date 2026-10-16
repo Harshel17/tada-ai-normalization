@@ -11,10 +11,10 @@
     "encoded_auth_examples_redacted": 0,
     "source_example_annotations": 101
   },
-  "reference_schemas_sha256": "32ec1d1e30731f94205acd07a8f09696586dc41525498947bbefaef64c15a622",
+  "reference_schemas_sha256": "1ee32498c2b5400f504b51b535a92b1b9c0818a697db2542e5613ef7df6c2570",
   "distribution": {
     "status": "user_approved_private_upload",
-    "evidence_reference": "../../docs/REFERENCE_AUDIT.md#private-upload-authorization",
+    "evidence_reference": "SOURCE_MANIFEST.json#/distribution/basis",
     "basis": "Organizer explicitly instructed: \"Yeah push those as well\" on 2026-10-09, after the permission gaps were disclosed. This authorizes this private upload; no provider redistribution license is represented.",
     "provider_redistribution_permission_verified": false,
     "candidate_sharing_approved": false,
